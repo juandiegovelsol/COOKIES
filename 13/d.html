@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh; /* Changed to 100vh for full height */
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Correctly centers vertically */
+        background: #667eaa;
+      }
+
+      .logo {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: spin 2s linear infinite;
+      }
+
+      .logo-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #667eaa;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <div class="logo-text">LOGO</div>
+    </div>
+  </body>
+</html>

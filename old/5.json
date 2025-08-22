@@ -1,0 +1,871 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {
+      "permissionGroup": "683de8cbb207547fff6e778c"
+    },
+    "_id": "6896d2213ef4966d7a392700",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "6892b288d88faa93471afdec",
+      "name": "cookies_rubrics_coding_common_errors_screen",
+      "title": "Cookies Rubrics [Coding] Common Errors Screen",
+      "description": "Hello! This is a screening exam based on common errors we are seeing in the tasks. This is a graded exam, so it is extremely important to read everything carefully and answer confidently so you can continue tasking on the project. ",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 27,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "9305497e-0d59-4aec-adad-a690fc45d34b",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Introduction",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "e5a27488-e8df-4f04-816d-b43d8bc2cdb1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Welcome to the **Cookies Vision Rubrics Common Errors** Course.\n\nAfter an initial round of task audits, we identified a list of common errors that we would like to cover in this course. **These are all errors that could potentially cause a task to fail, so please review them carefully and let us know if you have any further questions.**  "
+              },
+              "_id": "689a295d444e489a16165d73"
+            },
+            {
+              "id": "66c4a753-b49a-422c-a170-b770be429ffd",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT</mark> ⚠️**</span>\n\nFor all of you who have already completed a task and are now receiving this course, it is equally as important to pay attention to the information in this course. The screens are graded, and **you will not be able to continue working in this project if you do not reach a certain threshold of correct answers**. Please take this course seriously if you’d like to continue working on this project!\n\n**All examples in this course are REAL TASKS that FAILED**."
+              },
+              "_id": "689a295d444e489a16165d74"
+            }
+          ],
+          "_id": "689a295d444e489a16165d72"
+        },
+        {
+          "id": "8352782a-08dc-489f-ae3e-5769fa3bc771",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Coding vs. Computer Science Tasks",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "a4e1327b-1eb4-40be-8bda-aa329f6c7bb2",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT REMINDER</mark> ⚠️**</span>\n\n**DIRECTLY FROM THE STEM INSTRUCTIONS…**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754452635393_0kfkv.png\" alt=\"\">This course is targeted at BOTH Computer Science and Coding taskers as the common errors are still relevant to both. "
+              },
+              "_id": "689a295d444e489a16165d76"
+            }
+          ],
+          "_id": "689a295d444e489a16165d75"
+        },
+        {
+          "id": "2e3bfc9d-9094-4141-819c-844b0febcaef",
+          "estimatedTime": 2,
+          "recommendedEstimatedTime": 3,
+          "title": "Typos",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f1ab3aae-440a-4b6f-9c2c-def69bb8f397",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 1: Typos</mark>**</span>\n\n**Let’s start with something easy… Typos!**\n\nIt is extremely important to verify that you do not have typos in critical portions of your work. This is even more true for the code portions of your criteria. A poorly placed typo can easily make one of your criteria invalid if testing for a specific functionality within your code. Even one singular objectively wrong criteria caused by a typo will **FAIL** your task!"
+              },
+              "_id": "689a295d444e489a16165d78"
+            },
+            {
+              "id": "fa1956c0-1fc0-416f-92dc-3c9e74e27c60",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Example:</mark>**</span>\n\n**Please read the following criteria from a REAL task!**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754445302051_emiezg.png\" alt=\"\" width=\"1248\">This was the only error in an otherwise perfect task. **Can you spot the issue?**\n\nNotice the order of the brackets in the criteria. The criterion states,   `\"({[\" must have a corresponding closing \")}]\"` . There are two distinct typos here.\n\n1. The first group of brackets starts with a single quote instead of a double quote. This does not match the second set.\n2. The order of the brackets do not match the order you would find in code. The intention of the user is apparent, but our **auditors have to take what you write literally**. In this instance, as all brackets were grouped under one quote, it was taken to mean that they should close in the same order the were opened. This would be as follows: `“({[“ must have a corresponding closing “]})”`.\n\nEither of these issues alone would have invalidated this criterion, and thus the entire task, as code within a criterion must be exactly correct in order for the criterion to be valid.\n\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">The important takeaway:</mark> DOUBLE CHECK YOUR TASKS FOR TYPOS. Especially any criteria related to exact code snippets.**"
+              },
+              "_id": "689a295d444e489a16165d79"
+            },
+            {
+              "id": "0382eb96-d6ba-4f5c-a331-ff254a5ddc80",
+              "weight": 10,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": false,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question:</mark>**</span>\n\n**IMAGE PROMPT:**\\\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754446510643_1k4ck.png\" alt=\"\">**TEXT PROMPT:** “*My C++ function is not giving me output that makes sense. Tell me the error, its line number, and fix it for me.”*\n\n**CRITERIA:**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754446677352_5e74r.png\" alt=\"\">**COURSE QUESTION:** Which criteria has a typo in it? *Hint: There are 2.* ",
+                "choices": [
+                  {
+                    "id": "f535e11f-0758-4157-8eab-a20cf38c57cf",
+                    "answer": "Criteria 1",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "39f7ccbc-9e70-433e-89e7-60c9c77753e9",
+                    "answer": "Criteria 2",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "fc7a11fd-2d8e-455d-9e6c-5bdae2392a85",
+                    "answer": "Criteria 3",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "One typo is in Criteria 2, and is very easy to spot. One typo is in Criteria 1. The user accidentally had a typo where they thought the error was in Line 30, when it was actually in Line 29. This fully invalidated the criteria, which FAILED the task!",
+                "hint": "Check the image for your hint.",
+                "labelOptions": true
+              },
+              "_id": "689a295d444e489a16165d7a"
+            }
+          ],
+          "_id": "689a295d444e489a16165d77"
+        },
+        {
+          "id": "fb1d55d2-d79a-480c-9ce9-849a6bacb57d",
+          "estimatedTime": 4,
+          "recommendedEstimatedTime": 5,
+          "title": "Literal Phrasing",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "65c3239b-1bce-4a72-b9a3-fc10b91d17e8",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 2: Literal Phrasing</mark>**</span>\n\n**The next logical step to discuss…**\n\nThese tasks are being used to improve models. The best way to think about the tasks you are creating is that it will be evaluated by another model or LLM for accuracy/training/etc. With that in mind, you should ensure all of your word choices throughout the **ENTIRE TASK** is very literal in what you intend it to mean. **This is most important in your criteria within the rubric.** The rubric needs to be able to be used in its exact literal form to grade responses! Not following or using literal phrasing can very easily **FAIL** your task! "
+              },
+              "_id": "689a295d444e489a16165d7c"
+            },
+            {
+              "id": "7eb0de4c-4322-4a5b-b49a-e8336d28ada6",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Example:</mark>**</span>\n\n**Please read the following criterion and response snippet from a REAL task!**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754448082134_bbdck.png\" alt=\"\">**RESPONSE SNIPPET**:\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754448209874_klq9qv.png\" alt=\"\">This was one of the evaluation errors in this task that cascaded into eventually enough evaluation errors to FAIL the task. **Can you spot the issue?**\n\nNotice the criterion specifically says the response needs to state that the ^ character indicates the start of the string. Also, notice how the response does not specifically mentions this, but only slightly implies it. If someone without a coding background was reading this, they may not pick up on this implication. Thus, the auditor claimed the criteria was improperly assessed, which was part of the reason this task **FAILED**!\n\n**This doesn’t just apply to criteria.** Everything you are writing needs to be put under this magnification glass of literal meaning. Anything that is supposed to represent exact code blocks or lines **NEEDS** to be an **EXACT** match. These are treated equivalent to math equations in the way that they are either **RIGHT** or **WRONG**!\n\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">The important takeaway:</mark> DOUBLE CHECK your criteria and prompt is worded in the exact way you intend it to be measures. Furthermore, make sure you are grading your responses in a very objectively and literally for your objective criteria.**"
+              },
+              "_id": "689a295d444e489a16165d7d"
+            },
+            {
+              "id": "b18214e9-8440-414f-8204-5a550252b3ee",
+              "weight": 14,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": false,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question:</mark>**</span>\n\n**CRITERIA**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754450587512_69z5g.png\" alt=\"\" width=\"688\">**RESPONSE A:**\n\n**<strong token=\"**\"><img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754450635876_3tstf.png\" alt=\"\" width=\"271\"></strong>RESPONSE B:**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754450708789_ca68vk.png\" alt=\"\" width=\"202\">**RESPONSE C:**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754450756937_n4fezt.png\" alt=\"\" width=\"241\">\n\n**COURSE QUESTION:** Which Responses of A, B, and C will pass the two criteria? Select all.",
+                "choices": [
+                  {
+                    "id": "f535e11f-0758-4157-8eab-a20cf38c57cf",
+                    "answer": "Response A",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "39f7ccbc-9e70-433e-89e7-60c9c77753e9",
+                    "answer": "Response B",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "fc7a11fd-2d8e-455d-9e6c-5bdae2392a85",
+                    "answer": "Response C",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "1833045e-f82f-403b-8c09-2057c5de0b47",
+                    "answer": "None. (If you select this, do not select any other options)",
+                    "isCorrect": true
+                  }
+                ],
+                "explanation": "In the real task, the user selected Response B. This was overturned by our auditors as the output does not match the exact spacing between the variables and the colon. This is extremely important as the output of a code problem needs to be an EXACT match! Response A is incorrect because it does not have the two items in two lines. Response B is incorrect due to wrong spacing of the variable and colon. Response C is incorrect due to the wrong values. ANOTHER thing to note is the confusing dash formatting, which could have been mistaken as a negative. This didn't happen with the real auditor, but is certainly plausible and must be noted. ",
+                "hint": "",
+                "labelOptions": true
+              },
+              "_id": "689a295d444e489a16165d7e"
+            }
+          ],
+          "_id": "689a295d444e489a16165d7b"
+        },
+        {
+          "id": "368018b5-0b63-4e6b-a3e3-441b56488570",
+          "estimatedTime": 10,
+          "recommendedEstimatedTime": 12,
+          "title": "Criteria Types",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "14de86c5-07de-4f1d-8f9b-5225bf3b51df",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 3: Criteria Types</mark>**</span>\n\nAnother common error we have been seeing is the **mislabeling of criteria categories. Specifically, Instruction Following vs. Truthfulness.**\n\n**Quick Review from the Instructions:**\n\n1. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Instruction Following**: Rubric criteria that evaluate whether the response adheres to the explicit or implied directives, constraints, or tasks provided by the user in the prompt.</span>\n\n2. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Truthfulness**: Rubric criteria that measure how accurately the response conveys factual, reliable information aligned with established knowledge, evidence, logical reasoning.</span>\n\n3. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Writing Style / Presentation**: Rubric criteria that evaluate whether the response is clearly written, reasonably concise, appropriately toned, and well-structured—ensuring readability, coherence, and visual clarity.</span>\n\n4. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Content Completeness**: Implicit Criteria that are not directly related to the ask of the prompt.  These criteria evaluate whether the response includes all necessary and relevant information to fully satisfy the user’s intent, without omitting key details that would reduce helpfulness. This also includes criteria that checks whether invalid information does not exist and is not directly related to the ask of the prompt.  </span>\n\n5. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Visual perception**: Rubric criteria that evaluate whether the response has extracted required information correctly from an image and/ or used this information as necessary.  </span>\n\n6. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Visual reasoning**: Rubric criteria that evaluate whether the response has made the right set of inferences from an image to address the prompts. The inferred information may not be directly stated in the image. For example: the period of a sine wave should be inferred from a plot based on the location of consecutive peaks. </span>\n\n7. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Other**: Other crucial, important, or less important criteria not captured by the above categories. </span>"
+              },
+              "_id": "689a295d444e489a16165d80"
+            },
+            {
+              "id": "cf889520-ecc5-43e8-96f7-641d9e3f5cd4",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Example:</mark>**</span>\n\n**Please read the following criteria and prompt from a REAL task!**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754453671271_3xch1.png\" alt=\"\" width=\"529\">**PROMPT:** *What's the worst case time complexity, worst case space complexity for the function in the image? Also tell me what the output for the test case is.*\n\nEach one of these criteria are **EXPLICITLY** stated in the prompt. Thus, they **MUST** be “**Instruction Following**” criteria, even though they are conveying factual information. **THIS DOESN’T MEAN THAT YOU CANNOT USE TRUTHFULNESS IN THESE TASKS!**"
+              },
+              "_id": "689a295d444e489a16165d81"
+            },
+            {
+              "id": "5ca5ca57-3218-4fc9-afc8-64c519f56fda",
+              "weight": 8,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": false,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 1:</mark>**</span>\n\n**PROMPT:** *Using the adjacency matrix in the image, perform a Breadth-First Search to find the shortest path from Node 0 to Node 3. Show the state of the queue and which nodes are visited at each stage of the algorithm.*\n\n**CRITERIA**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754454154969_1lpfd7.png\" alt=\"\" width=\"773\">**COURSE QUESTION:** Which criteria have the wrong category type?",
+                "choices": [
+                  {
+                    "id": "f535e11f-0758-4157-8eab-a20cf38c57cf",
+                    "answer": "1",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "39f7ccbc-9e70-433e-89e7-60c9c77753e9",
+                    "answer": "2",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "fc7a11fd-2d8e-455d-9e6c-5bdae2392a85",
+                    "answer": "3",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "1833045e-f82f-403b-8c09-2057c5de0b47",
+                    "answer": "4",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "7ff291b8-1a95-4453-99ca-7e418ddfbfae",
+                    "answer": "5",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "8e585dd4-7415-4452-86f9-cfcdfc5585af",
+                    "answer": "6",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "b934d5a2-4496-4c4d-8a00-1c10b0c7dbc3",
+                    "answer": "7",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "e9a8fd8a-7b4a-44af-8b98-6af50d04f986",
+                    "answer": "None. (If you select this, do not select any other options)",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "The prompt EXPLICITLY asks for every item in this rubric. Therefore, all of these are \"instruction following\" instead of truthfulness.",
+                "hint": "",
+                "labelOptions": true
+              },
+              "_id": "689a295d444e489a16165d82"
+            },
+            {
+              "id": "33b35fac-a413-4d14-bcc9-37fb32b351c2",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 2:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\\\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754454517925_fv5ba.png\" alt=\"\">**COURSE QUESTION:** What criteria type should **Criteria 1** be? (The criteria image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "e9271d5f-d7cf-40fa-b707-bafe2b7c800c",
+                    "answer": "Instruction Following",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "c7cada31-ed10-4972-a271-24ff4536a5bd",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "a158205b-5ca0-4d2b-9cd2-c7f87de38eac",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "172f3ffe-4156-40e8-a005-146c162ffba1",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "de46764c-2de7-4a04-8f60-d151f959010a",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "d7a0450e-1032-44a5-9fda-abb6e580178e",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "69728d70-c13b-4329-acca-408c3d4beeed",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "labelOptions": true,
+                "explanation": "The image is correct! This is an explicit ask of the prompt."
+              },
+              "_id": "689a295d444e489a16165d83"
+            },
+            {
+              "id": "80d57b42-b55a-4987-aa9a-7bfdb8420b98",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 3:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response adds the expected output as a comment to the code, on the print line* `print(y, x, y, z, x, z)`.”\n\n**COURSE QUESTION:** What criteria type should **Criteria 2** be? (The criteria image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "1a8db7cd-3900-46c1-a75b-e342221e8fa0",
+                    "answer": "Instruction Following",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "602e335e-2cd6-434e-adce-656e53b54ad1",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "8944664e-4c98-4258-ae8b-eee63e7b7215",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "ab669886-6286-4cf6-9071-8cb29d950157",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "a47683d8-7775-4fc8-92cf-91bcee845d57",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "1883a9d7-1950-4dd6-ae08-01b305d7d435",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "67b28b2c-52cd-4f43-90a3-133485e7d576",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "The image is correct! This is an explicit ask of the prompt.",
+                "labelOptions": true
+              },
+              "_id": "689a295d444e489a16165d84"
+            },
+            {
+              "id": "3ddf2d04-fcd4-4b78-af31-996a01e52154",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 4:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response provides the full code along with the comment for the expected output, not just the line of the print statement in the code block.”*\n\n**COURSE QUESTION:** What criteria type should **Criteria 3** be? (The criteria image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "fe8181fc-0c12-44f0-9d51-9846c9093f72",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "2d90e561-aff5-49a1-9fd3-8162f01cddc3",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "3b4276dd-146f-4316-b947-a82a39829025",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "4f72a693-f688-4b0f-9405-6c4694467cc4",
+                    "answer": "Content Completeness",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "8182ce84-54bd-45cb-afc4-d00b42f92735",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "a00e0aaa-a651-4a31-a5eb-e3deb8c9604d",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "bd4b4251-1333-4c06-b213-9124f7fce87b",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "labelOptions": true,
+                "explanation": "The image is incorrect! This should be Content Completeness. This is an implict ask of the prompt, as it never asked for the full code. This is checking for if the response includes all relevant information!"
+              },
+              "_id": "689a295d444e489a16165d85"
+            },
+            {
+              "id": "e738d1f3-3647-4f0f-8411-4c3e9c6c3d70",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 5:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response does not add any additional comments to the code, other than the expected output on the print line,* `print(y, x, y, z, x, z)`.\n\n**COURSE QUESTION:** What criteria type should **Criteria 4** be? (The criteria image may or may not be correct)",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "502eb97b-285b-4023-a822-2d964bf3006d",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "7f80d103-c7a5-4bc7-9157-706460d63841",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "f076f9bc-d666-4679-95c8-096715df198f",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "bc399cf3-b3fb-4420-a3dd-0a610c45aa55",
+                    "answer": "Content Completeness",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "926fc1ce-b4b5-4311-9612-cb4be4bf56ee",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "47c59538-bd3e-43e0-b325-b6c91c905efe",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "2a0bf316-d5a5-432a-811e-203332080d9e",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "This is a hallucination criteria! This would be Content Completeness, as that type includes criteria that checks whether invalid information does not exist! "
+              },
+              "_id": "689a295d444e489a16165d86"
+            },
+            {
+              "id": "29bccfa9-4c04-470c-9628-159947916f7f",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 6:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response states that the original variable x remains 10 throughout.”*\n\n**COURSE QUESTION:** What criteria type should **Criteria 5** be? (The criteria image may or may not be correct)",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "bb35dbd4-d99b-442b-9ab1-8f3f4f32a0d6",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "efcadf1b-858b-495a-be05-6586ce695b2f",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "c760d218-b1fc-444b-b7e9-05c7b093523d",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "28b6f0cc-52f6-43a7-963a-23e5525e4e1d",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "d903ede3-9ea2-4f13-a5f6-176af99d8dac",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "94e65907-7868-4f14-ae78-993fed3669cf",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "92fef8c3-7431-4390-bb22-12feb925a941",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "This is Visual Reasoning and NOT Visual Perception because the model has to not only IDENTIFY the original value of x=10, but also had to UNDERSTAND what happened in the rest of the code to see if the value changed."
+              },
+              "_id": "689a295d444e489a16165d87"
+            },
+            {
+              "id": "763b130c-1f52-42f2-bddf-44577250524f",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 7:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response states that z equals 20 because double_2() returns 2 \\* x.”*\n\n**COURSE QUESTION:** What criteria type should **Criteria 6** be? (The criteria image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "255b6309-926f-40b9-9755-9a7df15419d8",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "f8006bfa-93ee-499c-9818-04eec8ce21f4",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "b5205100-20cb-4dbd-ace7-7dd139dfd3de",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "4df160ea-ed2c-4179-8173-05b1f64b0078",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "be8976cc-709c-470f-b708-8cc462af82c8",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "cb51dbe0-dc67-4659-a57f-71bd03b77fc1",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "976cd0fe-ff96-4fdd-876b-091682d97e41",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "labelOptions": true,
+                "explanation": "The answer is Visual Reasoning as the model has to identify the correct formula and then UNDERSTAND how other aspects of the image (like the value of x) incorporates to get the value of z. If the criteria was just the identification of z = double_2(x), that would be Visual Perception."
+              },
+              "_id": "689a295d444e489a16165d88"
+            },
+            {
+              "id": "8ac16f43-c48c-4b83-a6b9-6a7bcc305a16",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 8:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response states that y equals None because double_1() doesn't return anything.”*\n\n**COURSE QUESTION:** What criteria type should **Criteria 7** be? (The criteria image may or may not be correct)",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "fc19ed81-355b-4a18-93c4-49235c771807",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "44c34923-3c02-491a-a44c-c322d6238055",
+                    "answer": "Truthfulness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "9a7cb37c-f5db-431a-aac6-13c214f256cb",
+                    "answer": "Writing Style /  Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "81c383bc-2fd6-4b9b-87c8-9489bd589927",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "bb43e094-8c76-4386-866f-578bb96630fe",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "6a5ac185-eebd-4895-b756-be533b59e7d9",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "6f6b5609-960f-4a92-ae95-919632f1dd84",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "This is Visual Reasoning for the same reason as Question 7."
+              },
+              "_id": "689a295d444e489a16165d89"
+            },
+            {
+              "id": "185bef77-9cc5-4e88-8781-a5c8091e8ab9",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 9:</mark>**</span>\n\n**PROMPT:** *What is the expected output after running the following Python code? Add it as a comment to the print statement in the code.*\n\n**IMAGE PROMPT:** <img src=\"https://scale-cds-public-us-west-2.s3.amazonaws.com/64b1f19c03acceba05b657ab/YUE7GfbtAQeE-6d\" alt=\"Attachment python_code_1.png\">**CRITERIA (Same as Question 2)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response uses proper Python comment syntax with the # symbol”*\n\n**COURSE QUESTION:** What criteria type should **Criteria 8** be? (The criteria image may or may not be correct)",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "28b2e7fe-24b2-4ccb-8adc-c9640a978e1a",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "abf8058d-a075-4a4b-8c67-3274ef31fffc",
+                    "answer": "Truthfulness",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "820dab8d-cf72-45e8-b855-806a6ec01922",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "29135472-3630-4db3-9735-1f8747ddd789",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "3949745d-2adb-4dcf-bd95-d7439b9d4c4a",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "0f031977-fc07-4afb-8d7e-20ea5b86f755",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "a34a98e6-e43d-4685-88a6-4daf7f68d6d0",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "This is Truthfulness as the criteria is based on factual information based on established knowledge, which is the specific syntax of python for commenting."
+              },
+              "_id": "689a295d444e489a16165d8a"
+            }
+          ],
+          "_id": "689a295d444e489a16165d7f"
+        },
+        {
+          "id": "a97917af-24ea-4e5f-868b-a01ebc6226a9",
+          "estimatedTime": 5,
+          "recommendedEstimatedTime": 3,
+          "title": "Implicit vs. Explicit",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "6c762ceb-5cfe-48e7-a13d-80e7898e1509",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 4: Implicit vs. Explicit</mark>**</span>\n\nAnother common error we have been seeing is the **mislabeling of criteria categories. Specifically, Instruction Following vs. Truthfulness.**\n\n**Quick Review from the Instructions:**\n\n1. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Explicit:** criteria directly stated in the prompt. </span>\n\n* <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">*Example prompt: Identify the y-intercept on the attached graph.*</span>\n* <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">*Example explicit criterion: The response identifies the y-intercept as (0,5).*</span>\n\n2. <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">**Implicit:** criteria inferred from/implied by the prompt and the user’s intention.</span>\n\n* <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">*Example prompt: Identify the y-intercept on the attached graph.*</span>\n* <span style=\"color: rgb(0, 0, 0); font-family: &quot;IBM Plex Sans&quot;, sans-serif; font-size: 11pt\">*Example implicit criterion: The response shows that the y-intercept is calculated by taking the equation of the line and setting x=0.*</span> "
+              },
+              "_id": "689a295d444e489a16165d8c"
+            },
+            {
+              "id": "e5d9970c-41b8-4967-a117-b5ff1900934a",
+              "weight": 5,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "2",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 1:</mark>**</span>\n\n**PROMPT:** *I want to delete all occurrences of duplicate nodes. But my code is not working as expected. Can you find the issue and fix it?*\n\n**CRITERIA**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754458927278_ht1hz.png\" alt=\"\">**COURSE QUESTION:** What criteria type should **Criteria 2** be? (The image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "e9271d5f-d7cf-40fa-b707-bafe2b7c800c",
+                    "answer": "Instruction Following",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "c7cada31-ed10-4972-a271-24ff4536a5bd",
+                    "answer": "Truthfulness",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "a158205b-5ca0-4d2b-9cd2-c7f87de38eac",
+                    "answer": "Writing Style / Presentation",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "172f3ffe-4156-40e8-a005-146c162ffba1",
+                    "answer": "Content Completeness",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "de46764c-2de7-4a04-8f60-d151f959010a",
+                    "answer": "Visual Perception",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "d7a0450e-1032-44a5-9fda-abb6e580178e",
+                    "answer": "Visual Reasoning",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "69728d70-c13b-4329-acca-408c3d4beeed",
+                    "answer": "Other",
+                    "isCorrect": false
+                  }
+                ],
+                "labelOptions": true,
+                "explanation": "The image is correct! We are looking for an EXPLANATION of the code based on general knowledge of python!"
+              },
+              "_id": "689a295d444e489a16165d8d"
+            },
+            {
+              "id": "c8c64e54-03dd-4ba0-9b82-e6b845e89f92",
+              "weight": 7,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": "1",
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">Exam Question 2:</mark>**</span>\n\n**PROMPT:** *I want to delete all occurrences of duplicate nodes. But my code is not working as expected. Can you find the issue and fix it?* \n\n*Prompt Image is not needed to answer question.*\n\n**CRITERIA (Same as Question 1)**\n\n**CRITERIA REWRITTEN FOR EASE:** “*The response should explain that the original code only removes consecutive duplicates while keeping one occurrence of each duplicated value*”\n\n**COURSE QUESTION:** Should **Criteria 2** be IMPLICIT or EXPLICIT? (The image may or may not be correct)",
+                "choices": [
+                  {
+                    "id": "1883a9d7-1950-4dd6-ae08-01b305d7d435",
+                    "answer": "Implicit",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "67b28b2c-52cd-4f43-90a3-133485e7d576",
+                    "answer": "Explicit",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "This is an IMPLICIT ask of the prompt as it was never directly stated.",
+                "labelOptions": true
+              },
+              "_id": "689a295d444e489a16165d8e"
+            }
+          ],
+          "_id": "689a295d444e489a16165d8b"
+        },
+        {
+          "id": "2357be89-50f3-4ad4-8e3d-d71eeb7a0ba8",
+          "estimatedTime": 3,
+          "recommendedEstimatedTime": 2,
+          "title": "Make It Easy for Yourself!",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "aa350671-93f2-4bff-bddf-8c62ec92a52b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "When you are coming up with your prompts, keep in mind all of the criteria you will have to make and grade for it!\n\nTry to make your prompts simple with a **SINGLE PATHWAY ANSWER**. This means that there is a single defined path to get to a single defined answer. The more open ended your prompt, the more criteria you will have, and the more likelihood that you accidentally make a **CRITICAL FAILING** mistake!\n\n**Examples of prompts to avoid:**\n\n**PROMPT**: “*I've attached a screenshot of my python function. when I call it with input n=5, i get an unexpected result. can you walk through what this function will return for n=5, explaining each step of the logic and why it produces that result?”*\n\n* This user will have to include all of the steps in the logic in their rubric, as it is a direct ask of the prompt. Otherwise, they will **FAIL**!\n* The explanation ask within this prompt is also very open-ended. This increases the chances of missing a CRITICAL rubric item!\n* **BETTER PROMPT:** “*I've attached a screenshot of my python function. when I call it with input n=5, i get an unexpected result. What is the problem and how do I fix it?”*\n  * Still allows for two asks (Identify problem and identify fix) but gives more flexibility on “required” criteria. That will make your task **less likely to FAIL**!\n\n**PROMPT:** “*What unintended behavior would result if this function is called with a dictionary that includes nested lists as values? Explain exactly how and where the logic would break, and suggest a safer rewrite.”*\n\n* This user asked for multiple complex asks within one prompt. This is going to require a lengthy rubric to properly cover each item! That is added risk!\n* **BETTER PROMPT:** “*What unintended behavior would result if this function is called with a dictionary that includes nested lists as values?”*\n  * One direct ask with a single path answer!\n\n\\\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Using overcomplicated prompts, such as above, will NOT automatically FAIL your task. Just keep in mind you are adding additional risk for more complicated prompts. MAKE IT EASY FOR YOURSELF where you can!</mark>**"
+              },
+              "_id": "689a295d444e489a16165d90"
+            }
+          ],
+          "_id": "689a295d444e489a16165d8f"
+        },
+        {
+          "id": "13195a6d-0538-47ea-a553-a977ffac4f4d",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Conclusion",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "8f50a61f-13da-450b-a8f0-1f99cf6bfd9b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Thank you for taking the time to complete this course. For existing contributors, please keep this feedback in mind to avoid repeating the same mistakes. For new contributors, please take note of this common error so you can start the project running smoothly. Thank you!"
+              },
+              "_id": "689a295d444e489a16165d92"
+            }
+          ],
+          "_id": "689a295d444e489a16165d91"
+        }
+      ],
+      "translatedSections": {},
+      "passingGradeThreshold": 0.5,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": ["68943a793cb8cef67b04efe1"],
+      "grantedTagsUponFail": ["689a294230457e1e37dbe440"],
+      "createdBy": "68193d68b7c518ca6be8870c",
+      "updatedBy": "68193d68b7c518ca6be8870c",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": true,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 21,
+      "isPublic": false,
+      "createdAt": "2025-08-06T01:40:24.047Z",
+      "updatedAt": "2025-08-11T17:33:17.963Z",
+      "__v": 20,
+      "minReviewLevel": "-1"
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 2,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": true,
+    "fullstorySessions": [
+      "https://app.fullstory.com/ui/25WP4/client-session/2095ba13-5eff-457e-bb0a-cdfc7c72d91c%3A2c6271e1-2f91-49e6-8968-fadac1730695%3A1755187989215"
+    ],
+    "violationsDetected": [],
+    "skipped": false,
+    "passingGrade": 0.5,
+    "createdAt": "2025-08-09T04:44:18.081Z",
+    "updatedAt": "2025-08-14T16:13:45.937Z",
+    "__v": 1
+  }
+}

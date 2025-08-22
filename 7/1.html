@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Prueba de gradiente en texto</title>
+  </head>
+  <body>
+    <h1>Prueba del código de la imagen</h1>
+
+    <p style="color: linear-gradient(to right, #000000, #ffffff)">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+
+    <p
+      style="
+        color: linear-gradient(to right, transparent, #000000, #ffffff),
+          transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      "
+    >
+      1 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisquam, quos.
+    </p>
+
+    <p
+      style="
+        background: linear-gradient(to right, #000000, #ffffff);
+        -webkit-background-clip: text;
+        color: transparent;
+      "
+    >
+      2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+
+    <p style="color: linear-gradient(to right, #000000, #ffffff)">
+      3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+
+    <p
+      style="
+        background: linear-gradient(to right, transparent, #000000, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: fit-content;
+      "
+    >
+      4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+  </body>
+</html>

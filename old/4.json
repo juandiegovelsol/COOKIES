@@ -1,0 +1,229 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {},
+    "_id": "689dea7f5ee40b31cdd2a9b9",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "689cc8c5cbe465f8607a4509",
+      "name": "mmr_cookies_common_errors_8-11",
+      "title": "Cookies Common Errors: Week of 8/11",
+      "description": "\t\nAfter an initial round of task audits, we identified a list of common errors that we would like to cover in this course. These are all errors that would cause a task to fail, so please review them carefully and let us know if you have any further questions.",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 10,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "109e6d63-f558-46a6-a7a9-60af1c4b726a",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Introduction",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "e5a27488-e8df-4f04-816d-b43d8bc2cdb1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 16px\">Welcome to the **Cookies Rubrics Common Errors** course for the week of August 5.</span>\n\n<span style=\"font-size: 16px\">After an initial round of task audits, we identified a list of common errors that we would like to cover in this course. **These are all errors that would cause a task to fail, so please review them carefully and let us know if you have any further questions.**</span>\n\n<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT</mark> ⚠️**</span>\n\n<span style=\"font-size: 16px\">**If you continue to create tasks with these errors or review and pass tasks with these errors, you will be removed from the project.** Please bookmark this course and read through it carefully.</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba3c"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba3b"
+        },
+        {
+          "id": "b42c41e5-9fc6-4367-8373-09ac8a35a333",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 6,
+          "title": "Error 1: Criteria Not Self Contained",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f1ab3aae-440a-4b6f-9c2c-def69bb8f397",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 1: Criteria Not Self Contained</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** Criteria **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">SHOULD contain all necessary information</mark>** such that you are able to evaluate it against a response **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">without having access to the prompt or image</mark>**. You should be able to look at **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">ONLY THE CRITERIA AND THE RESPONSE to evaluate a “Yes”, “Partial” or “No”.</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> You should NOT need the prompt, image or </mark>**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">even other criteria within the rubric</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">.</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755106096867_cryfe.png\" alt=\"\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** You cannot evaluate this criteria without knowing what the “Z” is referring to (*Note the “Z” is no where to be found in the response*). <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">The “Z” is actually referring to a format requirement from another criterion within the rubric:</mark></span><img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755106355690_z9vmvdo.png\" alt=\"\"> <span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** </span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755106488988_fjfym8.png\" alt=\"\"><span style=\"font-size: 16px\">To evaluate this criterion you do not need to know the prompt, need access to the images or rest of the rubric, it is self-contained!</span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #2</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755107161461_0qjjc.png\" alt=\"\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">This criteria cannot be evaluated without having access to the menus in the images!</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755107161846_ni6q8s.png\" alt=\"\"><span style=\"font-size: 16px\"> To evaluate this criteria you do not need the image of the menus, it is self-contained.</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba3e"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba3d"
+        },
+        {
+          "id": "a50e015f-999f-4387-a1df-4a9e3f22d67a",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 4,
+          "title": "Error 2: Criteria Evaluated Incorrectly",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "3d8cc67f-4e70-48a2-a506-e422a3241be1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 2: Criteria Evaluated Incorrectly</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** It is of <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">utmost importance </mark>you take <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">the rubric evaluation (“Yes”, “Partial”, “No”) extremely seriously</mark> and double check all of your evaluations before submitting the task.</span>\n\n<span style=\"font-size: 16px\">When evaluating your criteria (“Yes”, “Partial”, or “No”) you must:</span>\n\n* <span style=\"font-size: 16px\">Pretend you have no idea what the prompt or the image is.</span>\n* <span style=\"font-size: 16px\">Evaluate the criteria based on exactly what it says the response should contain.</span>\n* <span style=\"font-size: 16px\">Take the criteria at face value and apply it to the response as is.</span>\n* <span style=\"font-size: 16px\">Re-write the criteria if necessary so that it evaluates how you intend for it to.</span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n**Criteria:**\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755111755495_6t1fh.png\" alt=\"\">**Response:**\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755114503629_qt06og.png\" alt=\"\">\n\n<span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">This criteria when evaluated at face value, is strictly saying the only thing the response can contain is information about the St. Johns River. If the response contains anything else or any other facts (which it does) then it would evaluate to NO. Obviously, this was not the intent of the criteria so this demands the criteria to be rewritten.</mark></span>\n\n <span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** By removing the word “Only” from the criterion the evaluation will match the intent of the criterion. Now you can clearly evaluate this criterion as “Yes” which was the intent of the criterion.</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755112033695_7upd3a.png\" alt=\"\"><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #2</mark>**</span>\n\n**Criteria:**\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755112462705_nwh96s.png\" alt=\"\">**Response:**\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755114624160_amsyqg.png\" alt=\"\">\n\n<span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** Here the parenthesis in the criterion makes evaluating this response very confusing. Are you expecting to see “white” in the response? Are you not expecting to see “white”? Are you expecting to see the words “apart from white”? </span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** </span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755112911100_18nsq4.png\" alt=\"\"><span style=\"font-size: 16px\">Now the criteria is clear and easy to evaluate!</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba40"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba3f"
+        },
+        {
+          "id": "50a420fd-179d-447c-b7ca-3b0bdc6919cd",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 2,
+          "title": "Error 3: Open Ended Prompts",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f2c25a51-2926-4ae1-8946-411a92ea7ffc",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 3: Open Ended Prompts</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** Prompts that are open ended are very difficult to write a rubric for. We should always aim to write prompts that are as close ended as and specific as possible. </span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755116891340_8usg6q.png\" alt=\"\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Prompt:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">This prompt is very open ended and there are endless possibilities on how to answer this prompt.</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Prompt:</mark>** </span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755117381423_b60roy.png\" alt=\"\">\n\n<span style=\"font-size: 16px\">Now it is easier to define what a response must contain for example: a light blue conical top; a white spherical base; a painting of a man holding a spear and shield; etc… This makes writing a good rubric alot easier!</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba42"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba41"
+        },
+        {
+          "id": "da38043d-00d2-4634-ad6d-e8e99434820f",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 2,
+          "title": "Best Practice: 3+ Dimensional Lists",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "4d7a46ce-4466-4639-aaab-54c4f0961214",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">BEST PRACTICE : 3+ Dimensional Lists</mark>**</span>\\\n<span style=\"font-size: 16px\">**Requirement:** Rubrics need to be sensibly atomic. Combining evaluations of distinctly different functionality into one criteria must be avoided. Distinct Facts/Explanations should be separated into its own criteria, lets a take a look at an example of a 3+ Dimensional list and how to make it sensibly atomic. </span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(245, 166, 35)\" style=\"background-color: rgb(245, 166, 35); color: inherit\">3 Dimensional List:</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755142618870_ut5mr.png\" alt=\"\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored criterion:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">This is a 3 dimensional list: The location of a yellow text sign, the contents of the sign, and the symbol associated with it. This criterion is stacked which makes it harder to evaluate and less precise in its evaluations. Here is how to optimally separate this list so it meets our best practices.</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** </span>\n\n<img src=\"https://static.remotasks.com/uploads/689cc8c5cbe465f8607a4509/1755143045567_x0txr6.png\" alt=\"\"><span style=\"font-size: 16px\">Here we separated out the 3 dimensional list into a single dimensional list and 2, two dimensional lists. This is now more precise and each criteria is evaluating a distinct fact/explanation.</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba44"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba43"
+        },
+        {
+          "id": "c5dbdb10-2f80-4ec0-ba1b-4da9dcb91247",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 5,
+          "title": "Thanks!",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "8f50a61f-13da-450b-a8f0-1f99cf6bfd9b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 16px\">Thank you for taking the time to complete this course — please keep this feedback in mind to avoid repeating the same mistakes. </span>\n\n<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT</mark> ⚠️**</span>\n\n<span style=\"font-size: 16px\">**For a final check, we’ll have three questions we’ll review to ensure you read through the course.**</span>"
+              },
+              "_id": "689d5fb58071e9765a39ba46"
+            },
+            {
+              "id": "3a54a6fc-3588-4107-8a81-9a76b7381152",
+              "weight": 100,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "I confirm I read through the ENTIRE course and did not skim parts of it.",
+                "hideAnswerFeedback": true,
+                "choices": [
+                  {
+                    "id": "64025ccd-b077-4d3e-ba37-9e02212c9843",
+                    "answer": "Yes, I confirm.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "2c8b9a7f-553c-4a0a-86bc-b73f9bd8f0a1",
+                    "answer": "No, I skimmed and will go back and review now.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "5fe41c0d-4d18-44c4-81fb-d3ae661a0e49",
+                    "answer": "No, I skimmed but I won’t review it deeply.",
+                    "isCorrect": false
+                  }
+                ],
+                "allowMultipleCorrectAnswers": true
+              },
+              "_id": "689d5fb58071e9765a39ba47"
+            },
+            {
+              "id": "800cb719-0e8f-4eda-a7ab-fbb3a274027c",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "Can you write out the 3 errors reviewed in this course? The heading names will suffice.",
+                "minCharacters": "10"
+              },
+              "_id": "689d5fb58071e9765a39ba48"
+            },
+            {
+              "id": "2c982c01-006d-46da-81c8-f09e82297bb8",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "Can you summarize what you learned in \\~3 sentences? You can have 1 sentence for each error. Do NOT just include the headings, give a little more detail.",
+                "minCharacters": "10"
+              },
+              "_id": "689d5fb58071e9765a39ba49"
+            }
+          ],
+          "_id": "689d5fb58071e9765a39ba45"
+        }
+      ],
+      "translatedSections": {},
+      "passingGradeThreshold": 0,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": [],
+      "grantedTagsUponFail": [],
+      "createdBy": "663a86bfa8034c44066be095",
+      "updatedBy": "663a86bfa8034c44066be095",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": false,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 12,
+      "isPublic": false,
+      "createdAt": "2025-08-13T17:17:57.612Z",
+      "updatedAt": "2025-08-14T04:01:57.136Z",
+      "__v": 11
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 1,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": false,
+    "passingGrade": 0,
+    "fullstorySessions": [],
+    "remainingTime": 600,
+    "projectId": "683de8cbb207547fff6e7793",
+    "violationsDetected": [],
+    "createdAt": "2025-08-14T13:54:07.132Z",
+    "updatedAt": "2025-08-14T13:54:18.275Z",
+    "__v": 0
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Text animation/title</title>
+    <style>
+      html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        font: 700 3rem/1.1 system-ui;
+        animation: pop 1.5s ease-in-out infinity alternate;
+      }
+      @keyframes pop {
+        from {
+          transform: scale(0.9);
+          letter-spacing: 0;
+          opacity: 0.5;
+        }
+        to {
+          transform: scale(1.1);
+          letter-spacing: 0.15em;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hi!Hello world!!</h1>
+  </body>
+</html>

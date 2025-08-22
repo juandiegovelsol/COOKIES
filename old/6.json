@@ -1,0 +1,328 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {
+      "permissionGroup": "683de8cbb207547fff6e778c"
+    },
+    "_id": "6899007d74c174e0d0049eea",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "6893c1614581aaca54a4b7a0",
+      "name": "cookies_rubrics_coding_reviewer_screen",
+      "title": "Cookies Rubrics [Coding] Reviewer Screen",
+      "description": "Hello! You were selected to take this screen to see if you can be automatically made into a reviewer! Warning: this is a very difficult screen, and you will not be penalized for failing. But you will benefit from passing! ",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 44,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "848d850c-bc07-4dcb-aa1d-b0f713d079ff",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Introduction",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "e5a27488-e8df-4f04-816d-b43d8bc2cdb1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Welcome to the **Cookies Vision Rubrics Coding Reviewer Screen**!"
+              },
+              "_id": "6897cf689e50c3592ae2fdba"
+            },
+            {
+              "id": "66c4a753-b49a-422c-a170-b770be429ffd",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(234, 178, 195)\" style=\"background-color: rgb(234, 178, 195); color: inherit\">MUST READ</mark> ⚠️**</span>\n\nThis screen is ONLY for people who are interested in a fast-track chance to be a trusted reviewer, which comes with access to exclusive missions. **If you DO NOT want to take this screen, simply skip through all of the questions with a N/A.** You will **NOT** be penalized for choosing to not take this exam.\n\n**This screen is purposely made to be very open-ended and difficult**, to match the current reviewer environment. Failing this screen will not negatively affect you in any way, but passing it will allow you to become a reviewer automatically!\n\nIf we detect you are using LLMs or cheating in any fashion, you will be automatically removed from the project permanently. "
+              },
+              "_id": "6897cf689e50c3592ae2fdbb"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdb9"
+        },
+        {
+          "id": "3e5dbc40-795d-4387-8c73-d7e037b1a0f1",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Coding vs. Computer Science Tasks",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "a4e1327b-1eb4-40be-8bda-aa329f6c7bb2",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT REMINDER</mark> ⚠️**</span>\n\n**DIRECTLY FROM THE STEM INSTRUCTIONS…**\n\n<img src=\"https://static.remotasks.com/uploads/6892b288d88faa93471afdec/1754452635393_0kfkv.png\" alt=\"\">**This screen is targeted at BOTH Computer Science and Coding as the reviews are similar enough to keep them together.**"
+              },
+              "_id": "6897cf689e50c3592ae2fdbd"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdbc"
+        },
+        {
+          "id": "b36795fb-974b-4d10-bfeb-276ebcaadeb8",
+          "estimatedTime": 7,
+          "recommendedEstimatedTime": 4,
+          "title": "Question 1",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "fa1956c0-1fc0-416f-92dc-3c9e74e27c60",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Question 1:</mark>**</span>\n\n**Please read the following from a REAL task!**\n\n**Prompt**: “*In this code, the function creates a counter that keeps a cumulative total. Currently, the code does not output any values and instead throws an exception. Can you identify the exception, explain what it is, and fix the code for me?”*\n\n**Attached Image**: <img src=\"https://s3.labeling-data.net/scale-cds-public-us-west-2/64b1f19c03acceba05b657ab/bOuzJFO5pDujWGh?Expires=1755129600&amp;Key-Pair-Id=K3DN68TU3V3L3W&amp;Signature=Dl1gX1vM5ZmUrWozqr09q7vC9O94RH83qFf3UG-XPH%7Ebl8ikVrL0w-k1U1su7DEmgQvzP%7E793X2giq3cYsVEM-LAVT4Yc5rfhssea%7EzSnv0CdJIZIeQRcvQ8fEN5LR3zqrJ%7E-X%7E1dOc5TNcEU9AauJFlGBwAbC2aBsxOL9krgZA2DsghnrWykBtKVfkpJwHwVkCbjsAkytDem53nuTaSfPX83fKMVXbIw5gJTUmlhlc7rfCqfwXnGCg3yhGAfaA5mdjmFKHUhC1rjDV9tThVncOQgT6CmgifogRRj5Berq9Cmp6Lubiqf7qiY2kTeFHHi1i6qPRU9siTz5a8D%7ETCTQ__\">**Criteria:**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754514114508_er3zch.png\" alt=\"\">"
+              },
+              "_id": "6897cf689e50c3592ae2fdbf"
+            },
+            {
+              "id": "654b7ab0-8d06-4330-962f-c34321132e07",
+              "weight": 16.67,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "Write your feedback if you were a reviewer and you received this task. If you think this task has 0 errors, type “No Errors. Perfect Task.” Refer to the criteria as C1, C2, or C3.",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive a decimal for the fraction of items in the list below the response mentions. The denominator of the fraction should be 4. The numerator is the amount of items in the list it mentions. For any problem mentioned that is not in the list below, subtract 0.1 to a limit of 0.3 in total subtractions. \n- The response mentions that C1 is wrongly categorized as \"Truthfulness\", when it should be \"Instruction Following.\n- The response mentions that C2 is wrongly categorized as \"Truthfulness\", when it should be \"Instruction Following.\n- The response mentions that C3 is wrongly categorized as \"Truthfulness\", when it should be \"Instruction Following.\n- The response mentions that C3 is poorly worded or vague, and should be worded more explicitly to match the prompt asks.\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number",
+                    "allowCopyForbiddenWordsOrPhrases": true
+                  }
+                }
+              },
+              "_id": "6897cf689e50c3592ae2fdc0"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdbe"
+        },
+        {
+          "id": "2aff5c18-7fb2-4a42-9458-d213e905cec4",
+          "estimatedTime": 20,
+          "recommendedEstimatedTime": 9,
+          "title": "Question 2",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "d326cf6d-1c0a-49ac-a4c0-b9016597d53d",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Question 2:</mark>**</span>\n\n**Please read the following from a REAL task!**\n\n**Prompt**: “*Can you explain what this code is doing functionally to a non-technical person?”*  \n\n**Attached Images**: <img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754534532798_bp1ygn.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754534568844_9w20u.png\" alt=\"\">\n\n**Criteria:**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754534634579_41qzp5.png\" alt=\"\">"
+              },
+              "_id": "6897cf689e50c3592ae2fdc2"
+            },
+            {
+              "id": "78143bb0-fd2a-4557-afec-94e52414b312",
+              "weight": 16.67,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**RESPONSE A AND ASSOCIATED RUBRIC**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754534659079_bokgmi.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754534924177_it9ite.png\" alt=\"\" width=\"669\">\n\n**COURSE QUESTION 2.1:** Based on the rubric evaluation and the response above, what feedback would you give to the user? **ONLY** comment on their application of the rubric to the response and the error description, not the rubric construction. Refer to the rubric items as **C1, C2, C3**, etc.\n\nIf you think this task has 0 errors, type “No Errors. Perfect Task.”",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive the response +1 point if they identify that C6 is incorrect. Subtract 0.5 points each if they identify any of C1, C2, C9 or C11 as incorrect. Anything else mentioned as incorrect, subtract 0. The lowest score is 0.  \n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number",
+                    "allowCopyForbiddenWordsOrPhrases": true
+                  }
+                }
+              },
+              "_id": "6897cf689e50c3592ae2fdc3"
+            },
+            {
+              "id": "69b969c3-e156-470e-8472-ad0c3126d241",
+              "weight": 16.67,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive the response +0.25 point each if they identify that C2, C5, C6, or C11 is incorrect. Subtract 0.5 points each if they identify any of C1, C9 or C10 as incorrect. Subtract 0.2 points each if they identify C8 as incorrect. Anything else mentioned as incorrect, subtract 0. The lowest score is 0.  \n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number"
+                  }
+                },
+                "question": "**RESPONSE B AND ASSOCIATED RUBRIC**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754535957846_1siprb.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754535970872_s0roe.png\" alt=\"\" width=\"670\">**COURSE QUESTION 2.2:** Based on the rubric evaluation and the response above, what feedback would you give to the user? **ONLY** comment on their application of the rubric to the response and the error description, not the rubric construction. Refer to the rubric items as **C1, C2, C3**, etc.\n\nIf you think this task has 0 errors, type “No Errors. Perfect Task.”"
+              },
+              "_id": "6897cf689e50c3592ae2fdc4"
+            },
+            {
+              "id": "31a10d58-2060-477d-9fc7-c23898e1bc19",
+              "weight": 16.67,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**RESPONSE C AND ASSOCIATED RUBRIC**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754536567243_w455pp.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754536704514_149wt.png\" alt=\"\" width=\"717\">\n\n**COURSE QUESTION 2.3:** Based on the rubric evaluation and the response above, what feedback would you give to the user? **ONLY** comment on their application of the rubric to the response and the error description, not the rubric construction. Refer to the rubric items as **C1, C2, C3**, etc.\n\nIf you think this task has 0 errors, type “No Errors. Perfect Task.”",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive the response +0.33 point each if they identify that C2, C5, or C11 is incorrect. Subtract 0.5 points each if they identify any of C1, C6, C9 or C10 as incorrect. Subtract 0.2 points each if they identify C8 as incorrect. Anything else mentioned as incorrect, subtract 0. The lowest score is 0.  \n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "6897cf689e50c3592ae2fdc5"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdc1"
+        },
+        {
+          "id": "bee789f9-89eb-4b43-9c5e-690758dda845",
+          "estimatedTime": 7,
+          "recommendedEstimatedTime": 2,
+          "title": "Question 3",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f0ff4d23-2b97-4c49-b5ce-f540d0adddea",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Question 3:</mark>**</span>\n\n**Please read the following from a REAL task!**\n\n**Hint:** You do not need the prompt to answer this question. It is actually very helpful to analyze the responses with their rubrics **WITHOUT** the prompt to ensure they are self-contained. It may feel confusing to read a rubric without the context of the prompt, but that could be the sign of a bad rubric. "
+              },
+              "_id": "6897cf689e50c3592ae2fdc7"
+            },
+            {
+              "id": "aa48faec-defe-4930-8db0-b6790e3aeed9",
+              "weight": 16.67,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**RESPONSE A AND ASSOCIATED RUBRIC**\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754538868163_az1pj1.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754538932157_5soif.png\" alt=\"\" width=\"692\">**COURSE QUESTION 3:** Based on the rubric evaluation and the response above, what feedback would you give to the user? **ONLY** comment on their application of the rubric to the response and the error description, not the rubric construction. Refer to the rubric items as **C1, C2, C3**, etc.\n\nIf you think this task has 0 errors, type “No Errors. Perfect Task.”",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive the response +1 point if they identify that the error description is incorrect. Subtract 0.5 points each if they identify any of C1, C2, C3, C4, C5, or C6 as incorrect. If C7 is mentioned, ignore it. The lowest score is 0.  \n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number",
+                    "allowCopyForbiddenWordsOrPhrases": true
+                  }
+                }
+              },
+              "_id": "6897cf689e50c3592ae2fdc8"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdc6"
+        },
+        {
+          "id": "0ba484a2-ab9d-4be8-842e-3dd1636fe738",
+          "estimatedTime": 7,
+          "recommendedEstimatedTime": 5,
+          "title": "Question 4",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "6b936362-2c7d-4957-8254-9d79ea80a8c0",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(80, 227, 194)\" style=\"background-color: rgb(80, 227, 194); color: inherit\">Question 4:</mark>**</span>\n\n**Please read the following from a REAL task!**\n\n**DO NOT COMMENT ON ANYTHING BESIDES THE MISSING CRITICAL CRITERIA.**\n\n**PROMPT**: “*How does the api variable interact with the graph object in the simulate method?”*\n\n<img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754541576857_kueys.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754541633840_1wry8h.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/6893c1614581aaca54a4b7a0/1754541757058_86qd0p.png\" alt=\"\">"
+              },
+              "_id": "6897cf689e50c3592ae2fdca"
+            },
+            {
+              "id": "2d1ab7d0-8cc2-46d7-a548-931931692d6f",
+              "weight": 16.65,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**DO NOT ANSWER ABOUT ANYTHING BESIDES THE MISSING CRITICAL CRITERIA.**\n\n**COURSE QUESTION 3:** Based on the material above, please explain what the missing critical criteria is in the rubric. You do not need to address what the criteria literally needs to be written as or the categories. **You only need to mention the reason additional criteria are needed with <u>DIRECT</u> evidence from the provided Response A.** ",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. \n\nIf the written field you will grade is null or blank, simply output \"0\". If the written field states \"No Errors. Perfect Task.” or \"N/A\" exactly then output a 0 and ignore the following instructions.\n\nGive the Response +0.5 if it identifies both \"mv1\" and \"mv2\" as hallucinated items. Give the Response an additional +0.5 points if it identifies \"set_target\" as a hallucinated item. \n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt-4o",
+                    "outputType": "number",
+                    "allowCopyForbiddenWordsOrPhrases": true
+                  }
+                }
+              },
+              "_id": "6897cf689e50c3592ae2fdcb"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdc9"
+        },
+        {
+          "id": "b0925394-cb80-4a84-ace0-8b3e4e92620f",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Conclusion",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "8f50a61f-13da-450b-a8f0-1f99cf6bfd9b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Thank you for taking the time to complete this course. The team will review your results and decide if you can be moved to an accelerated reviewer role if we still have space. \n\nRegardless, hopefully you have learned more about the project and are ready to get more into the work! "
+              },
+              "_id": "6897cf689e50c3592ae2fdcd"
+            }
+          ],
+          "_id": "6897cf689e50c3592ae2fdcc"
+        }
+      ],
+      "translatedSections": {},
+      "passingGradeThreshold": 0.45,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": ["6894339ea92efc9fb75dd37f"],
+      "grantedTagsUponFail": [],
+      "createdBy": "68193d68b7c518ca6be8870c",
+      "updatedBy": "68193d68b7c518ca6be8870c",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": false,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 13,
+      "isPublic": false,
+      "createdAt": "2025-08-06T20:56:01.917Z",
+      "updatedAt": "2025-08-09T22:44:56.742Z",
+      "__v": 12,
+      "minReviewLevel": "-1"
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 2,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": true,
+    "fullstorySessions": [
+      "https://app.fullstory.com/ui/25WP4/client-session/2095ba13-5eff-457e-bb0a-cdfc7c72d91c%3A2c6271e1-2f91-49e6-8968-fadac1730695%3A1755191763194"
+    ],
+    "violationsDetected": [],
+    "skipped": false,
+    "passingGrade": 0.45,
+    "createdAt": "2025-08-10T20:26:37.854Z",
+    "updatedAt": "2025-08-14T17:16:22.174Z",
+    "__v": 1
+  }
+}

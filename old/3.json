@@ -1,0 +1,513 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {},
+    "_id": "689cf7061aecd090bf55c72a",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "6841d96898259b3f0de59030",
+      "name": "mm-cookies-screening-course",
+      "title": "Cookies Rubrics - Screening Course",
+      "description": "Thank you for reviewing the Multimodal Cookies with Rubrics course material and tasking guidelines! To test your knowledge and to maintain the highest possible quality standards for this project, we would like to test your knowledge of the tasking process to determine eligibility for this project.",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 27,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "d677887e-2a8d-410f-8b5a-604827dfda5b",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Welcome to the Screening",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "6160b4ea-d66e-40bd-b0c5-02ce539e60a5",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Thank you for taking the time to go over the instructions and tasking guidelines for the **Multimodal Cookies with Rubrics** project! To test your knowledge of this material and to maintain the highest possible quality standards on this project, we ask that you take this **screening** designed to test your judgment on the quality and correctness of real prompt, rating, and rubric examples.\n\nMake sure to have the [instructions](https://app.outlier.ai/en/expert/instruction/683de8cbb207547fff6e7793) handy for this screening, and, among other things, make sure to be attentive to:\n\n* What makes a prompt **valid and well-constructed** on this project\n* How we **categorize** prompt types and rubric criteria\n* Assessing whether a task's rubrics, ratings, and preference rankings **align** with one another\n* Whether rubric **criteria** are well-defined, the right level of specificity, and otherwise follow our guidelines\n* Whether overall ratings are **determined reasonably**\n\n**Note:** This is being served to everyone and has nothing to do with performance so far for those already on the project <span style=\"color: rgb(4, 12, 40)\">👍 we expect that this will take about </span>**half an hour.**\n\nLet's start! <span style=\"color: rgb(71, 71, 71)\">🍪</span>"
+              },
+              "_id": "689cd34c62d458de1f1c54c7"
+            }
+          ],
+          "_id": "689cd34c62d458de1f1c54c6"
+        },
+        {
+          "id": "cff866fb-e025-4a29-9aee-f3c244c2735a",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 5,
+          "title": "Multiple Choice Section",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "bb821f61-b071-4769-928f-2dc3af5141b7",
+              "weight": 20,
+              "type": "multiple_choice",
+              "contents": {
+                "singleSelect": false,
+                "skipGrading": false,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Which of the following are crucial requirements of good criteria in a rubric? Select all that apply.</mark>**",
+                "choices": [
+                  {
+                    "id": "1a1badba-69b6-44f8-bff2-c44196ddf5a1",
+                    "answer": "<p>Criteria do not repeat or cover the same exact requirement</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "70382bbf-7188-4543-9e49-7cc26342862a",
+                    "answer": "<p>Granular, interrelated criteria are <u>always</u> condensed into one broader criterion</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "96c0be49-b508-4c4f-a24d-000736a9d1ae",
+                    "answer": "Criteria are all explicit and objective",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "fe3166b0-3b54-4a1e-958f-a0cdcd568ff5",
+                    "answer": "<p>Criteria are self-contained so that they can be assessed without the prompt or image</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "e660abeb-c47f-43f5-9d54-056d460c46e7",
+                    "answer": "Factual claims presented in criteria must be verifiable as truthful",
+                    "isCorrect": true
+                  }
+                ],
+                "maxAttempts": 1,
+                "allowMultipleCorrectAnswers": true
+              },
+              "_id": "689cd34c62d458de1f1c54c9"
+            },
+            {
+              "id": "6575c50e-20cf-4933-b0c2-79046cb9d655",
+              "weight": 20,
+              "type": "multiple_choice",
+              "contents": {
+                "singleSelect": false,
+                "skipGrading": false,
+                "maxAttempts": 1,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Which of the following are crucial requirements of a good prompt? Select all that apply.</mark>**",
+                "choices": [
+                  {
+                    "id": "eead7513-7bb4-4c66-b149-28faef708a79",
+                    "answer": "<p>It is not the same as (or extremely similar to) any previously used prompt</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "e491bfd0-5f53-46e8-bb2b-06fa4b069122",
+                    "answer": "<p>If multi-turn, prompt is related to the previous turn</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "8a7f38b4-3b1b-4eb0-9514-6b1046860486",
+                    "answer": "The first turn prompt is self-contained and could be answered without the image if needed",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "adc7b2f8-2f3f-4073-9ea0-ddc7f046ba91",
+                    "answer": "Prompt has some level of \"correct\" answers even if there is not a single, definitive one (answer is not 100% subjective)",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "f49cc3c3-7674-4f70-a603-d46214ef406c",
+                    "answer": "Prompt must follow the assigned category, in the first turn only",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "06416eb3-5f11-4e09-a4f5-0a49245fa639",
+                    "answer": "The prompt should sound natural and only include things needed to answer/narrow down the request.",
+                    "isCorrect": true
+                  }
+                ]
+              },
+              "_id": "689cd34c62d458de1f1c54ca"
+            },
+            {
+              "id": "37becddb-6daa-445e-8d25-0a0329fd771c",
+              "weight": 20,
+              "type": "multiple_choice",
+              "contents": {
+                "singleSelect": false,
+                "skipGrading": false,
+                "question": "Consider the prompt: *What is the ratio of the length of side A to the length of side B of the triangle in the image?*\n\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Without seeing the image, please which ideas would fall under EXPLICIT criteria. Select all that apply.</mark>**",
+                "choices": [
+                  {
+                    "id": "883cae5b-3c29-42ad-aca2-eceee93a332c",
+                    "answer": "<p>The length of side A</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "d463fd77-9efc-4776-bf77-fa3e01a9d70e",
+                    "answer": "<p>The length of side B</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "9639b385-cb81-417b-b54d-b9e7fe533670",
+                    "answer": "<p>The length of side C</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "49066063-509a-41ef-a65c-56b80135027b",
+                    "answer": "<p>The ratio</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "5c0d639d-5151-4162-83f1-5c16bebb732d",
+                    "answer": "<p>The formula used to calculate the ratio</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "448eb7c8-4e3c-432d-9bde-d8b700446fa5",
+                    "answer": "<p>Information about what kind of triangle (acute, right, obtuse) is in the image</p>",
+                    "isCorrect": false
+                  }
+                ],
+                "maxAttempts": 1
+              },
+              "_id": "689cd34c62d458de1f1c54cb"
+            },
+            {
+              "id": "fda34aa0-2062-4062-97ea-fae714af8928",
+              "weight": 20,
+              "type": "multiple_choice",
+              "contents": {
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "Consider the prompt: *Can you tell me what insects these are and what is happening here?*\n\nConsider the criteria: *The rubric must correctly identify all insects are in the image.*\n\n<img src=\"https://static.remotasks.com/uploads//images.jpeg\">**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Is this criteria self contained?</mark>**",
+                "choices": [
+                  {
+                    "id": "0ca58458-ffc1-485a-9a1f-e7fb540ebd78",
+                    "answer": "Yes",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "703e5e31-a364-47c3-b5ed-1793e8b00343",
+                    "answer": "No",
+                    "isCorrect": true
+                  }
+                ],
+                "maxAttempts": 1,
+                "requireAllAnswers": false
+              },
+              "_id": "689cd34c62d458de1f1c54cc"
+            },
+            {
+              "id": "878ec633-4b05-4d55-985c-97b8476a92bf",
+              "weight": 20,
+              "type": "multiple_choice",
+              "contents": {
+                "singleSelect": true,
+                "skipGrading": false,
+                "maxAttempts": 1,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">What is the primary error in this rubric?</mark>**\n\n<img src=\"https://static.remotasks.com/uploads//Screenshot%202025-04-28%2012.28.24%20AM.png\">",
+                "choices": [
+                  {
+                    "id": "64d7d614-e93c-403c-bc14-3a4792096009",
+                    "answer": "<p>None!</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "f31ad1c0-724d-42ce-bd45-262134a22d73",
+                    "answer": "<p>Contradiction</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "402eccdb-d0ef-45dc-9dde-d9b675846b68",
+                    "answer": "<p>Lack of Deviation</p>",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "8486f19b-863f-4497-ae0a-ae87cf5df2df",
+                    "answer": "<p>Lack of Self-Containment / Specificity</p>",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "29771520-8827-4499-8d16-68e9753212d6",
+                    "answer": "<p>Too Few Criteria</p>",
+                    "isCorrect": false
+                  }
+                ]
+              },
+              "_id": "689cd34c62d458de1f1c54cd"
+            }
+          ],
+          "_id": "689cd34c62d458de1f1c54c8"
+        },
+        {
+          "id": "e8a632e9-4ec3-4f5a-8ed8-bcd43286d5b3",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 10,
+          "title": "Problem 1",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "ea42f0b1-4141-4d3e-9117-ad910cd8eaea",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<p>Review the category requirements, image and prompt below.</p>"
+              },
+              "_id": "689cd34c62d458de1f1c54cf"
+            },
+            {
+              "id": "fe18bc7e-aaf8-4527-8621-28d50563b498",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "### **<u>Prompt Category Requirements</u>**\n\n### ➡️ **Image Type**: Documents\n\n### ➡️ **Prompt Type**: Chatbot\n\n### **<u>Prompt and Image</u>**\n\nConsidering this document for ethical penetration testing, what specific action is advised when a junior pentester encounters an ambiguous situation or a \"grey area\" during an assessment?\n\n<img src=\"https://www.hackthebox.com/storage/blog/NtpLUlwRjbuvPc5vzMR3UQ9bFHp2GKBz.jpg\" width=\"364\">"
+              },
+              "_id": "689cd34c62d458de1f1c54d0"
+            },
+            {
+              "id": "d513f4f7-7043-465d-9e59-32c0bb1e1fd4",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Describe any problems with how the prompt and image adhere to the assigned categories, or write \"N/A\" if they follow all guidelines correctly.</mark>**",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field you will grade is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field mentions something related to the prompt not being \"Chatbot\" as requested.\n-Provide a score of .5 if the field mentions something related to the prompt not being \"Chatbot\" and the image not being a document.\n- Otherwise, provide a score of \"0\".\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "689cd34c62d458de1f1c54d1"
+            },
+            {
+              "id": "b00da567-529d-4939-8c37-8628d2e87d35",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<p>Now, review the responses given by the models, and the rubric criteria created for the ideal response to this prompt.</p>"
+              },
+              "_id": "689cd34c62d458de1f1c54d2"
+            },
+            {
+              "id": "68b51c15-44b0-49f0-b2a8-44f7de75e655",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "### **<u>Model Responses</u>**\n\n<img src=\"https://static.remotasks.com/uploads/67f719c7fa1717d272ab471a/ec7398e5-f363-4bdc-8028-68d87f74619e/image.png\" width=\"849\"><img src=\"https://static.remotasks.com/uploads/67f719c7fa1717d272ab471a/a3a49d45-060c-470e-a630-b88426d8d1c7/image.png\" width=\"846\">\n\n### **<u>Rubric Criteria</u>**\n\n<img src=\"https://static.remotasks.com/uploads/6841d96898259b3f0de59030/1753132944490_nn1oej.png\" alt=\"\">"
+              },
+              "_id": "689cd34c62d458de1f1c54d3"
+            },
+            {
+              "id": "10871715-dbfe-4253-9c0a-07c97a217b17",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "This rubric has **SOME OF** the following errors:\n\n1. Criteria Not Self Contained\n2. Redundant Criteria\n3. Incorrect Category Criteria\n4. Incorrect Explicit/Implicit Criteria\n5. Incorrect Objective/Subjective Criteria\n6. Excessive Implicit Criteria\n\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Can you identify which criteria (if any) exhibit these errors?</mark>**\n\nRemember an error can be exhibited by multiple Criteria, a single criterion can exhibit multiple errors or the error listed is not exhibited at all. Use a new line for each criteria, even if they have the same error.  Your answer should be in the following format:\n\n**Criteria number : Error : Justification**\n\nFor example:\n\n**C10 : Incorrect Explicit/Implicit : C10 is actually Implicit because the prompt did not directly ask for an explanation of rain clouds.**",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field mentions All of the following in similar terms or a score of .5 if it mentions  only 1 - 3 of the following in similar terms:\n1. C2 : Criteria Not Self Contained :  C2 would need access to the image to determine the specific guidance and then would need to use outside sources to confirm the reasoning  for it is correct.\n2. C2 : Redundant Criteria : C2 and C4 are basically the same criteria\n3. C3 : Excessive Implicit Criteria : This was not asked for by the prompt so it can be considered excessive or this is not directly related to the prompt. This criteria also causes the rubric to contain more implicit criteria than allowed.\n4. C4 : Incorrect Explicit / Implicit Criteria : The reasoning of the specific action was not asked for or this information was not directly asked for by the prompt\n\n\n- Otherwise, provide a score of \"0\".\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "689cd34c62d458de1f1c54d4"
+            },
+            {
+              "id": "47143e69-05f6-466a-a83d-bf581517636e",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Using the above rubric assuming the errors were fixed (if any of the errors existed in the first place), how would you rank the responses?</mark>**\n\nRemember ties are acceptable and only rank based on the criteria included in the rubric. The format should be a numbered list in order from best to worst using only the response number, for example:\n\n1. **Response 4**\n\n2. **Response 3**\n\n3. **Response 2**\n\n4. **Response 1**\n\nOr in the case of a tie all the tied responses will take one position:\n\n1. **Response 3 and Response 4**",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field you will grade is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field in some form or the other conveys that Response 4 is ranked first and the rest are ranked in any order\n\n-Provide a score of .5\nIf Response is ranked first but tied with another Response\n\n- Otherwise, provide a score of \"0\"\nIf Response is not ranked first at all\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "689cd34c62d458de1f1c54d5"
+            }
+          ],
+          "_id": "689cd34c62d458de1f1c54ce"
+        },
+        {
+          "id": "4bd9ed02-785f-4bdd-8a02-5780f573f0fb",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 10,
+          "title": "Problem 2",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "2fe767a4-473b-47b1-bd0e-0aeebb560412",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<p>Review the category requirements, image and prompt below.</p>"
+              },
+              "_id": "689cd34c62d458de1f1c54d7"
+            },
+            {
+              "id": "494af32f-6066-4363-aca0-eeacfa21bcec",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "### **<u>Prompt Category Requirements</u>**\n\n### ➡️ **Image Type**: Daily Objects\n\n### ➡️ **Prompt Type**: Structured Extraction\n\n### **<u>Prompt and Image</u>**\n\nWhat film did this team work on together?\n\n<img src=\"https://thefilmstage.com/wp-content/uploads/2010/09/the-crew.jpg\" width=\"461\">"
+              },
+              "_id": "689cd34c62d458de1f1c54d8"
+            },
+            {
+              "id": "164f4c00-b962-4e76-9fae-0375ee4c2dad",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Describe any problems with how the prompt and image adhere to the assigned categories, or write \"N/A\" if they follow all guidelines correctly.</mark>**",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field you will grade is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field mentions something related to the image not being \"Daily Objects\" AND that \"Structured Extraction\" is not an appropriate prompt type.\n-  Provide a score of \"0.5\" if the field mentions something related to the image not being \"Daily Objects\" OR that \"Structured Extraction\" is not an appropriate prompt type.\n- Otherwise, provide a score of \"0\".\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "689cd34c62d458de1f1c54d9"
+            },
+            {
+              "id": "13e7a949-6d95-4444-b02b-57b1a5499d59",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<p>Now, review the responses given by the models, the rubric criteria created for the ideal response to this prompt, the overall scores, and the ranking justification.</p>"
+              },
+              "_id": "689cd34c62d458de1f1c54da"
+            },
+            {
+              "id": "aa5b77b6-5d7f-4cf2-9c4e-6486cc8987a1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "### **<u>Model Responses</u>**\n\n<img src=\"https://static.remotasks.com/uploads//878d8747-8940-4ebf-a326-e1f38d92ce3c/image.png\" width=\"722\"><img src=\"https://static.remotasks.com/uploads//47f5bf84-ae78-4b9c-80e5-7fd69bc967bb/image.png\" width=\"721\">\n\n### **<u>Rubric Criteria</u>**\n\n<img src=\"https://static.remotasks.com/uploads/6841d96898259b3f0de59030/1753137151466_4bhijj.png\" alt=\"\">"
+              },
+              "_id": "689cd34c62d458de1f1c54db"
+            },
+            {
+              "id": "42ac8835-66f3-45c1-8beb-2ce5c327b399",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "This rubric has **SOME OF** the following errors:\n\n1. Criteria Not Self Contained\n2. Redundant Criteria\n3. Incorrect Category Criteria\n4. Incorrect Explicit/Implicit Criteria\n5. Incorrect Objective/Subjective Criteria\n6. Excessive Implicit Criteria\n\n**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Can you identify which criteria (if any) exhibit these errors?</mark>**\n\nRemember an error can be exhibited by multiple Criteria, a single criterion can exhibit multiple errors or the error listed is not exhibited at all. Use a new line for each criteria, even if they have the same error.  Your answer should be in the following format:\n\n**Criteria number : Error : Justification**\n\nFor example:\n\n**C10 : Incorrect Explicit/Implicit : C10 is actually Implicit because the prompt did not directly ask for an explanation of rain clouds.**",
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field mentions All of the following in similar terms or a score of .5 if it mentions  only 2 - 3 of the following in similar terms:\n1. C3 : Criteria Not Self Contained : C6 would need access to the image to determine the name of the film.\n2. C1 : Incorrect Explicit / Implicit Criteria  :  Identifying names was not directly asked for in the prompt. \n3 C2 : Incorrect Explicit / Implicit Criteria  :  Identifying names and their titles was not directly asked for in the prompt. \n\n- Otherwise, provide a score of \"0\".\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                }
+              },
+              "_id": "689cd34c62d458de1f1c54dc"
+            },
+            {
+              "id": "bc5a190d-9249-4fe7-a4c0-1f62923c3333",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "enableFreeTextGrader": true,
+                "freeTextGraderConfig": {
+                  "type": "course",
+                  "gradingConfigs": {
+                    "template": "Please review \"RESPONSE\" which is a written field. Your task is to give this field a score of 0, 0.5, or 1 based on the criteria outlined below. Strictly follow this criteria at all times.\n\nIf the written field you will grade is null or blank, simply output \"0\".\n\n- Provide a score of \"1\" if the field in some form or the other conveys that Response 2 comes first, then Response 1 and 3 are tied, then Response 4 comes last. In other words, the right order is:\n1. Response 2\n2. Response 1 and 3\n3. Response 4\n\n-Provide a score of .5\nIf two of these responses (out of Response 1, 2, 3, and 4) are in the right order.\n\n- Otherwise, provide a score of \"0\".\n\nOnly output the final score in number format without quotations.\n\nRESPONSE:\n{{ response }}",
+                    "selectedModel": "gpt_4o",
+                    "outputType": "number"
+                  }
+                },
+                "question": "**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">Using the above rubric assuming the errors were fixed (if any of the errors existed in the first place), how would you rank the responses?</mark>**\n\nRemember ties are acceptable and only rank based on the criteria included in the rubric. The format should be a numbered list in order from best to worst using only the response number, for example:\n\n1. **Response 4**\n\n2. **Response 3**\n\n3. **Response 2**\n\n4. **Response 1**\n\nOr in the case of a tie two responses will take one position\n\n1. **Response 3 and Response 4**"
+              },
+              "_id": "689cd34c62d458de1f1c54dd"
+            }
+          ],
+          "_id": "689cd34c62d458de1f1c54d6"
+        },
+        {
+          "id": "2bbd854f-3d24-4ff8-9ffe-c8c07ae0e9fb",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Thank You!",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "bedc43ec-f79a-4923-b18c-c79197b5f7df",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "Thank you for taking the screening for MM Rubrics w/ cookies!  Our team will review your work shortly."
+              },
+              "_id": "689cd34c62d458de1f1c54df"
+            }
+          ],
+          "_id": "689cd34c62d458de1f1c54de"
+        }
+      ],
+      "translatedSections": {},
+      "passingGradeThreshold": 0.7,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": ["68431b956755745ccedcf44f"],
+      "grantedTagsUponFail": ["68431bdfd9b68159e9b83e1e"],
+      "createdBy": "678581884a85aefbbe206edc",
+      "updatedBy": "66686e21d5adabdae5c494b1",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": true,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 40,
+      "createdAt": "2025-06-05T17:52:40.117Z",
+      "updatedAt": "2025-08-13T18:02:52.219Z",
+      "__v": 39,
+      "minReviewLevel": "-1",
+      "isPublic": false
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 1,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": false,
+    "passingGrade": 0.7,
+    "fullstorySessions": [],
+    "remainingTime": 1620,
+    "projectId": "683de8cbb207547fff6e7793",
+    "violationsDetected": [],
+    "createdAt": "2025-08-13T20:35:18.935Z",
+    "updatedAt": "2025-08-13T20:36:39.601Z",
+    "__v": 0
+  }
+}

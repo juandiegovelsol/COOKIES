@@ -1,0 +1,212 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {},
+    "_id": "689cdeb363c1ad512bdd4cac",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "689286fd5d3594e81c59954d",
+      "name": "ccokies-rubrics-common-errors-0805",
+      "title": "Cookies Rubrics Common Errors: Week of 8/5",
+      "description": "After an initial round of task audits, we identified a list of common errors that we would like to cover in this course. These are all errors that would cause a task to fail, so please review them carefully and let us know if you have any further questions.",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 9,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "de154d5a-c7e0-472c-a43e-6d4218e2f92c",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 1,
+          "title": "Introduction",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "e5a27488-e8df-4f04-816d-b43d8bc2cdb1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 16px\">Welcome to the **Cookies Rubrics Common Errors** course for the week of August 5.</span>\n\n<span style=\"font-size: 16px\">After an initial round of task audits, we identified a list of common errors that we would like to cover in this course. **These are all errors that would cause a task to fail, so please review them carefully and let us know if you have any further questions.**</span>\n\n<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT</mark> ⚠️**</span>\n\n<span style=\"font-size: 16px\">**If you continue to create tasks with these errors or review and pass tasks with these errors, you will be removed from the project.** Please bookmark this course and read through it carefully.</span>"
+              },
+              "_id": "689cc844581fb8eeab4323ea"
+            }
+          ],
+          "_id": "689cc844581fb8eeab4323e9"
+        },
+        {
+          "id": "fa44ae95-0865-4364-8448-70282b2e94af",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 6,
+          "title": "Error 1: Criteria Not Self Contained",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f1ab3aae-440a-4b6f-9c2c-def69bb8f397",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 1: Criteria Not Self Contained</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** Criteria **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">SHOULD always contain all necessary information</mark>** to correctly answer the prompt. You should be able to look at **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">ONLY THE CRITERIA AND THE RESPONSE and know the correct answer.</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> You should NOT need the image.</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n<span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\"><strong token=\"**\"><mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"><img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754491227170_a6j5xe.png\" alt=\"\" width=\"517\"></mark></strong></span></mark>**</span><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">What artworks? If the response just addressed 2 random artworks, how would you know how to evaluate this criteria? </mark></span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** Response should address both the artworks: The Marble Bust with the Blue Background and the Fresco of a Bearded Man.</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754491240972_s9qm3a.png\" alt=\"\" width=\"477\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">What period? What if the response talks about a totally different period, but the terminology is correct. Is this what you’re truly looking for in an ideal response?</mark></span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** Response should use period-appropriate artistic terminology from the Renaissance period, including X, Y, and/or Z.</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754491247945_n4qyy.png\" alt=\"\" width=\"476\"><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #2</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754491265794_ya7yva.png\" alt=\"\" width=\"619\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">What is the correct consecutive manner? Alphabetical? How would you know? Even “left to right, from top to bottom” is NOT okay. Because how would you know what is left to right/top to bottom without looking at the image?</mark></span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** Response should only list the order as The Statue of Liberty, The Golden Gate Bridge, The Space Needle, …</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754491348256_5oezn.png\" alt=\"\" width=\"702\">"
+              },
+              "_id": "689cc844581fb8eeab4323ec"
+            }
+          ],
+          "_id": "689cc844581fb8eeab4323eb"
+        },
+        {
+          "id": "e4730e3c-f888-4b96-b3a9-893aec5d6cc6",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 2,
+          "title": "Error 2: Prompts/Criteria Written Too Informally",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "f2c25a51-2926-4ae1-8946-411a92ea7ffc",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 2: Prompts/Criteria Written Too Informally</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** Both prompts and criteria **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">SHOULD be written as if everything they say is going to be taken very literally and formally.</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> Remember, you’re training an </mark>**<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">LLM that is picking up on ALL subtleties that you may not even notice you’re bringing in</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">, so the wording and true factuality is VERY IMPORTANT. Note that while the below examples are for prompts, the same guideline applies for criteria! </mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754492173108_cyuj8j.png\" alt=\"\" width=\"496\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Prompt:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">“All in 2 sentences” is vague and, if taken literally, the whole response should be 2 sentences. However it could also mean that each item should be in 2 sentences, which is what the CB meant here. In either case, it’s not clear.</mark></span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Prompt:</mark>** “What are the names of the objects on this map for the following: 1, 2, 3 as above. State a description of what they are, what they are made of, if they are real or imaginary, and the locations they can be found, with each item containing only 2 sentences.”</span>"
+              },
+              "_id": "689cc844581fb8eeab4323ee"
+            }
+          ],
+          "_id": "689cc844581fb8eeab4323ed"
+        },
+        {
+          "id": "706b7f58-1e33-4321-ab33-545f891585c4",
+          "estimatedTime": 1,
+          "recommendedEstimatedTime": 4,
+          "title": "Error 3: Criteria Written Too Narrowly",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "3d8cc67f-4e70-48a2-a506-e422a3241be1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 28px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Error 3: Criteria Written Too Narrowly</mark>**</span>\n\n<span style=\"font-size: 16px\">**Requirement:** Criteria should always be evaluated exactly as they are written, so criteria **<mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">SHOULD always be written to account for correct responses.</mark>**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> In other words, if a response is correct in regard to a certain criteria, it should be able to get a “yes” when evaluated against your criteria, even when your criteria is evaluated very literally.</mark></span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #1</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754492882166_f2a5rk.png\" alt=\"\"><img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754492917262_33xrf4.png\" alt=\"\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** <mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">The end of the criteria, namely “from chemicals and dirt while cleaning” is too narrow and, when evaluated against the responses literally, would NOT be a yes, when it’s clear the user’s intent is for both of these criteria to be a yes for multiple responses. For response A, chemicals and dirt aren’t mentioned. For response B, dirt isn’t mentioned.</mark></span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** “The response should mentioned that gloves are used to protect the hands.”</span>\n\n<span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">BAD EXAMPLE #2</mark>**</span>\n\n<img src=\"https://static.remotasks.com/uploads/689286fd5d3594e81c59954d/1754493221245_twmuen.png\" alt=\"\" width=\"799\"><span style=\"color: rgb(208, 2, 27); font-family: &quot;comic sans ms&quot;; font-size: 20px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\">X</mark>**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(233, 161, 170)\" style=\"background-color: rgb(233, 161, 170); color: inherit\">Errored Criteria:</mark>** This criteria implies that the response should say “orange chairs appear in all there of the attached images”, and it’s hard to discern the import part of this criteria. Is it that chairs appear in THREE parts of the images? Is it that CHAIRS appear in all parts of the images? Or is it that ORANGE chairs appear in all parts of the images? In reality, it’s the last one, but how would we know?</span>\n\n<span style=\"color: rgb(65, 117, 5); font-size: 20px\">**=D**</span><span style=\"font-family: &quot;comic sans ms&quot;; font-size: 16px\">**<mark data-color=\"rgb(255, 255, 255)\" style=\"background-color: rgb(255, 255, 255); color: inherit\"> </mark>**</span><span style=\"font-size: 16px\">**<mark data-color=\"rgb(206, 222, 190)\" style=\"background-color: rgb(206, 222, 190); color: inherit\">Corrected Criteria:</mark>** “The response should contain the color orange.”</span>"
+              },
+              "_id": "689cc844581fb8eeab4323f0"
+            }
+          ],
+          "_id": "689cc844581fb8eeab4323ef"
+        },
+        {
+          "id": "6990c160-6496-46c9-92b0-baa6002ca455",
+          "estimatedTime": 0,
+          "recommendedEstimatedTime": 5,
+          "title": "Thanks!",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "8f50a61f-13da-450b-a8f0-1f99cf6bfd9b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<span style=\"font-size: 16px\">Thank you for taking the time to complete this course — please keep this feedback in mind to avoid repeating the same mistakes. </span>\n\n<span style=\"font-size: 24px; text-align: center; display: inline-block; width: 100%\">**⚠️ <mark data-color=\"rgb(248, 231, 28)\" style=\"background-color: rgb(248, 231, 28); color: inherit\">IMPORTANT</mark> ⚠️**</span>\n\n<span style=\"font-size: 16px\">**For a final check, we’ll have three questions we’ll review to ensure you read through the course.**</span>"
+              },
+              "_id": "689cc844581fb8eeab4323f2"
+            },
+            {
+              "id": "3a54a6fc-3588-4107-8a81-9a76b7381152",
+              "weight": 100,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": false,
+                "question": "I confirm I read through the ENTIRE course and did not skim parts of it.",
+                "hideAnswerFeedback": true,
+                "choices": [
+                  {
+                    "id": "64025ccd-b077-4d3e-ba37-9e02212c9843",
+                    "answer": "Yes, I confirm.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "2c8b9a7f-553c-4a0a-86bc-b73f9bd8f0a1",
+                    "answer": "No, I skimmed and will go back and review now.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "5fe41c0d-4d18-44c4-81fb-d3ae661a0e49",
+                    "answer": "No, I skimmed but I won’t review it deeply.",
+                    "isCorrect": false
+                  }
+                ],
+                "allowMultipleCorrectAnswers": true
+              },
+              "_id": "689cc844581fb8eeab4323f3"
+            },
+            {
+              "id": "800cb719-0e8f-4eda-a7ab-fbb3a274027c",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "Can you write out the 3 errors reviewed in this course? The heading names will suffice.",
+                "minCharacters": "10"
+              },
+              "_id": "689cc844581fb8eeab4323f4"
+            },
+            {
+              "id": "2c982c01-006d-46da-81c8-f09e82297bb8",
+              "weight": 0,
+              "type": "text_response",
+              "contents": {
+                "singleSelect": true,
+                "question": "Can you summarize what you learned in \\~3 sentences? You can have 1 sentence for each error. Do NOT just include the headings, give a little more detail.",
+                "minCharacters": "10"
+              },
+              "_id": "689cc844581fb8eeab4323f5"
+            }
+          ],
+          "_id": "689cc844581fb8eeab4323f1"
+        }
+      ],
+      "translatedSections": {},
+      "passingGradeThreshold": 1,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": [],
+      "grantedTagsUponFail": [],
+      "createdBy": "66686e21d5adabdae5c494b1",
+      "updatedBy": "663a86bfa8034c44066be095",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": false,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 8,
+      "isPublic": false,
+      "createdAt": "2025-08-05T22:34:37.600Z",
+      "updatedAt": "2025-08-13T17:15:48.431Z",
+      "__v": 7,
+      "minReviewLevel": "-1"
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 1,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": false,
+    "passingGrade": 1,
+    "fullstorySessions": [
+      "https://app.fullstory.com/ui/25WP4/client-session/2095ba13-5eff-457e-bb0a-cdfc7c72d91c%3A55ee8515-afb5-4ad7-9701-2629840d8f35%3A1755111084947"
+    ],
+    "remainingTime": 540,
+    "projectId": "683de8cbb207547fff6e7793",
+    "violationsDetected": [],
+    "createdAt": "2025-08-13T18:51:31.956Z",
+    "updatedAt": "2025-08-13T18:55:26.246Z",
+    "__v": 1
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "courseProgress": {
+    "courseGrade": {},
+    "referralInfo": {},
+    "_id": "689952e584c046845d22bd17",
+    "worker": "666551489082b5376455194b",
+    "course": {
+      "_id": "6892e922522126f1742d8678",
+      "name": "mm_rubrics_cookies_intro",
+      "title": "MM Rubrics Cookies Introductory Course",
+      "description": "Master the full MM Rubrics Cookies workflow, from crafting follow-up prompts to spotting failures and writing targeted, high-quality rubrics.",
+      "archived": false,
+      "disabled": false,
+      "projectIds": [],
+      "courseDuration": 25,
+      "courseType": "native",
+      "sections": [
+        {
+          "id": "6d29a969-b920-4753-ab6c-4d9e65b7eea8",
+          "estimatedTime": 3,
+          "recommendedEstimatedTime": 1,
+          "title": "Introduction",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "daaccafc-bf76-4aa7-9f35-e464fcacc2f2",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754458499330_6jv5tp.png\" alt=\"MM Rubrics Cookies Introductory Course\">"
+              },
+              "_id": "689704a61db81d7051a1ffe4"
+            },
+            {
+              "id": "60929a31-ced7-4674-a2de-f57ef5b076fd",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754527248816_ucnpze.png\" alt=\"Table of Contents  Introduction and Task Overview  Step 1: Write and Understand the Prompt  Step 2: Review the Model Responses  Step 3: Write Rubric Criteria  Step 4: Score, Rank, and Justify the Responses  Final Tips, Examples and Takeaways\">"
+              },
+              "_id": "689704a61db81d7051a1ffe5"
+            },
+            {
+              "id": "e27c23a9-6ca4-4281-846d-ba4e6c9d3f6f",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754458534946_fdl42.png\" alt=\"Introduction and Task Overview\">"
+              },
+              "_id": "689704a61db81d7051a1ffe6"
+            },
+            {
+              "id": "089d2e08-9b9a-4906-beb6-c01c4f15fe27",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754510183548_4d7w16.png\" alt=\"Welcome to the Cookies Rubrics Introductory Course!  In this project, you’ll write a prompt that requires the model to use an image to give a correct answer, then evaluate how well model responses follow that prompt.  You’ll learn to identify hallucinations, write clear and complete rubric criteria, and rank responses based on accuracy, clarity, and alignment with both the prompt and image.  In this course, you will:  Learn to write an image dependent prompt grounded in the visual content  Understand how to break down a multimodal prompt and identify key asks  Spot common model errors like hallucinations, formatting mistakes, and factual inaccuracies  Write precise rubric criteria that fully address the prompt and image content  Learn how to rank model responses fairly and consistently  Avoid common pitfalls and apply best practices at every stage of the task  Let’s get started!\">\\\n[<span style=\"color: rgb(74, 144, 226); font-size: 24px\">**<u>Click here to review the project instructions.</u>**</span>](https://app.outlier.ai/en/expert/instruction/683de8cbb207547fff6e7793)"
+              },
+              "_id": "689704a61db81d7051a1ffe7"
+            },
+            {
+              "id": "9082c545-3a33-414b-9fdc-7b50d16ba1f2",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754510493029_7j2to.png\" alt=\"Rubrics Introduction: Setting the Standards for Strong Model Responses  A rubric is a checklist of expectations that defines what makes a strong response. It is used to evaluate whether a model answered the prompt effectively.  Rubrics are used to guide model training and evaluation, make reviewer scoring more consistent, and capture both required and preferred response features.  Each rubric includes four key elements. First, it defines clear, testable criteria that describe what a strong response should include. Second, it categorizes each item based on what it measures, such as visual perception, truthfulness, or instruction following. Third, it assigns a weight to indicate the importance of the item—typically rated as Crucial (5), Important (3), or Minor (1). Finally, it identifies whether the criterion is explicit, meaning it was directly stated in the prompt, or implicit, meaning it was only implied.\">"
+              },
+              "_id": "689704a61db81d7051a1ffe8"
+            },
+            {
+              "id": "b00fd29b-e741-4803-a2a3-5006f1609eab",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754727582002_aiautg.png\" alt=\"Steps Overview  Step 1 is to write and understand the prompt. You must follow the assigned prompt category, image type, and image count exactly. If the image count is labeled as “Single,” only one image should be uploaded regardless of how many turns you write. STEM or coding-related prompts and images should not be used unless explicitly allowed. Your first prompt must be image-dependent, meaning the image is required in order to answer correctly. If you're writing a follow-up prompt, it must build logically on a previous turn and cannot stand alone.  Step 2 is to evaluate the initial model responses. You’ll begin by reading and rating two model responses on a scale from one to five, with short justifications. Then, choose your preferred response between the two. If either response is a model failure, write a quick scratch rubric that describes what an ideal response should look like. Next, review two more responses, bringing the total to four, and select the best overall. If there is no model failure, continue evaluating until one is identified. Finally, do a preliminary ranking of all four responses and explain your reasoning.  Step 3 is to write rubric criteria. Create a full rubric that covers all key asks from the prompt. This should include clear, specific criteria with appropriate weights. Each criterion should be tagged with a category, such as Visual Perception or Truthfulness. You’ll also mark whether each item is explicit or implicit, and whether it is objective or subjective. Make sure to include formatting and hallucination-related criteria if needed. Keep your language clear and efficient, and avoid vague or redundant phrasing. Ensure that you don’t miss any critical asks.  Step 4 is to score, rank, and justify the responses. Use your rubric to score each response, marking each criterion as Yes, Partially, or No. For any unmet criteria, provide brief error descriptions and review the scores in the Rubric Evaluation Viewer. Rank all four responses from best to worst based on how well they align with the rubric. Ties are allowed. Then, write a Final Ranking Justification to explain your decisions—especially if your final ranking differs from the rubric scores. Be careful not to let tone or fluency outweigh more important issues like factual accuracy or instruction-following.\">"
+              },
+              "_id": "689704a61db81d7051a1ffe9"
+            }
+          ],
+          "_id": "689704a61db81d7051a1ffe3"
+        },
+        {
+          "id": "0ee7885b-3510-4af3-910b-51fab041d68d",
+          "estimatedTime": 5,
+          "title": "Step 1: Write and Understand the Prompt",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "662b4d8e-a161-4e7e-8354-25d5d3cc73cd",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754466841585_zgnvww.png\" alt=\"Step 1: Write and Understand the Prompt\">"
+              },
+              "_id": "689704a61db81d7051a1ffeb"
+            },
+            {
+              "id": "321c401e-bd0f-41a0-b043-e5169dbfc370",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754586498798_fsdqic.png\" alt=\"Step 1: Write and Understand the Prompt  Before writing your prompt, confirm the correct task setup by reviewing three key items in the task header. First, your prompt category must follow the required prompt type exactly. Second, your image category must match the specified image type for the task. Third, you must follow the assigned image count for all prompts, which will be either Single or Multi-Image.  If the image count is labeled Single, you may only upload one image, even if the conversation has multiple turns. If the count is Multi-Image, then you should upload more than one image. STEM or coding-related prompts are not allowed unless your assigned category specifically permits them.  These rules must be followed for the first turn in the task. Later turns may vary in prompt category, image type, or image count.\">"
+              },
+              "_id": "689704a61db81d7051a1ffec"
+            },
+            {
+              "id": "d492320f-4b87-4d59-be0c-02ac5fc6d830",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754510978178_1iuz2.png\" alt=\"Follow-Up Prompt Rules  When writing a follow-up turn, the new prompt must depend on the previous turn. It should build on what came before and must not be answerable on its own.  For first-turn tasks, you must always write an image-dependent prompt that matches the assigned categories. In later turns, make sure to maintain context and continuity across the conversation.  Image Description  The image shows a screenshot of a user interface where the user is prompted to write a prompt to start a chat session with the model. The user’s input says, “Please identify all the exit numbers that appear on the left half of the billboard in this photo.” Below this text is an image of a billboard in a grassy area near a fence, which includes exit numbers that the prompt is referring to.\">"
+              },
+              "_id": "689704a61db81d7051a1ffed"
+            },
+            {
+              "id": "f0648061-08ed-466d-8cb0-4a0ed27fc636",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754586673110_mfav4q.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1ffee"
+            },
+            {
+              "id": "a9be209f-6118-4a31-969b-050082ca7154",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754586749785_eq1bg.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1ffef"
+            },
+            {
+              "id": "96f9bcc2-90fb-46c0-9036-d8c60c2cd727",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754586794353_17aptm.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff0"
+            },
+            {
+              "id": "8766771e-0bed-4a37-ada4-05d0bf840d07",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587084928_k1008i.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff1"
+            },
+            {
+              "id": "37d59619-6847-439e-b0d0-7312491f3f68",
+              "weight": 0,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": true,
+                "question": "**Q1. Which of the following best describes a valid follow-up prompt in this project?**",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "4b4622d7-3363-4852-8fe8-90d335d3e81b",
+                    "answer": "A standalone prompt with no connection to previous turns",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "c58d95a5-3580-4496-aca4-f692c2f3e372",
+                    "answer": "A direct response to the model’s most recent message",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "fb1ff07f-b4e2-419f-bf4d-56aad1211a10",
+                    "answer": "A follow-up that builds on an earlier response, even if it’s not image-dependent",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "5cd411e3-50f0-46e7-a922-ee9060dc366a",
+                    "answer": "A generic continuation with no added constraints",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "Correct answer: C Because prompts must be linked to an earlier turn, even if they don’t depend on the image."
+              },
+              "_id": "689704a61db81d7051a1fff2"
+            },
+            {
+              "id": "838a85d2-a556-487d-b8dd-6a6da9f16110",
+              "weight": 0,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": true,
+                "question": "**Q2. Which of the following is most important when writing the prompt?**",
+                "choices": [
+                  {
+                    "id": "4654c77a-b741-4c3f-95c4-f8629aed12bf",
+                    "answer": "Using as few words as possible",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "5c13d51d-8ba5-4fbc-a3ea-038d84ccaaeb",
+                    "answer": "Making the image optional",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "13072e1c-fb25-4033-93da-a7bd8580bd35",
+                    "answer": "Ensuring the prompt clearly sets up a goal the model must achieve",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "6a8047ea-312e-49de-9378-1b9844bb3de8",
+                    "answer": "Asking for extra facts not shown in the image",
+                    "isCorrect": false
+                  }
+                ],
+                "labelOptions": true,
+                "explanation": "Correct answer: C The prompt should clearly guide the model toward a specific goal and ensure the image is necessary to answer it."
+              },
+              "_id": "689704a61db81d7051a1fff3"
+            }
+          ],
+          "_id": "689704a61db81d7051a1ffea"
+        },
+        {
+          "id": "ce7bd58c-636f-45ee-83e2-6e91561968af",
+          "estimatedTime": 4,
+          "title": "Step 2: Evaluate Initial Model Responses",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "110c3002-7fbb-4997-8ca7-49f4a49fb6ad",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754469206608_cgls2n.png\" alt=\"Step 2: Evaluate Initial  Model Responses\">"
+              },
+              "_id": "689704a61db81d7051a1fff5"
+            },
+            {
+              "id": "779e62d8-5f0d-4942-ae05-3ffa34245b43",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587196709_hi47k.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff6"
+            },
+            {
+              "id": "da03f8c1-5388-4c47-b94c-8509ac9994dc",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587267582_bh4bap.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff7"
+            },
+            {
+              "id": "a902294f-cc4c-4c58-b612-66816ece1bd5",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587329440_g6w4yr.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff8"
+            },
+            {
+              "id": "d9826f5c-d468-4931-91fc-b7fba3382ce1",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587785280_oj1fq.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fff9"
+            },
+            {
+              "id": "fea56ece-fc56-4c66-a8f2-1c8ce0175e1a",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754587913843_sny7y.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a1fffa"
+            },
+            {
+              "id": "9f0f590c-3831-4c1e-a634-9193bfe13b55",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754469289556_pgxip1.png\" alt=\"The ideal response: Left Box:  An ideal response typically  Fully follows the instructions in the prompt  Demonstrates deep understanding of the task’s purpose and goals  Addresses every part of the prompt clearly and completely  Maintains appropriate tone, language, and formatting  Shows no major flaws in truthfulness, coherence, or writing quality  Right Side:  Use this as your north star:  Every rubric criterion should help distinguish whether a response meets or falls short of this standard  Keep the ideal in mind as you design and refine your rubric — it’s what the model is aiming for\">"
+              },
+              "_id": "689704a61db81d7051a1fffb"
+            },
+            {
+              "id": "6e8c2a5f-9f04-4d00-8875-90ffdb41ba53",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754512955599_1qiyo.png\" alt=\"Key Problem Areas Hallucinations: Unsupported or inaccurate claims.  Irrelevant Additions: Unnecessary info not grounded in the prompt.  Formatting Issues: Inconsistent use of bullets, missing structure, or incorrect style.  Additional Mistakes Subtle Hallucinations: Small factual errors or exaggerations that sound believable.  Invalid Visual References: Assuming details in images are accurate without confirming.  Overlooking Format Cues: Missing embedded instructions in prompt wording.\">"
+              },
+              "_id": "689704a61db81d7051a1fffc"
+            },
+            {
+              "id": "07b1a4b8-2a7c-4589-8c35-14f6512c5095",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754513345086_mad6ae.png\" alt=\"Punt Reminders – Quick Overview:  What you need to know:  Punting means the model refuses to answer.  When ranking responses:  Punts should be ranked higher than a complete model failure.\">"
+              },
+              "_id": "689704a61db81d7051a1fffd"
+            },
+            {
+              "id": "b66b026d-5a79-4330-aa7b-8e99976dbee2",
+              "weight": 0,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": true,
+                "question": "**Q3. When reviewing model responses, which issue should be flagged as a problem?**",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "618ddf6c-aff2-4f9f-b3d7-14fffaf087ba",
+                    "answer": "The model uses a slightly different synonym than expected.",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "9b363a80-3695-43c2-a331-e72aeac5f68f",
+                    "answer": "The response is inaccurate, incomplete or hallucinates.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "78790dd7-659e-4a60-8912-f8e16503bfa2",
+                    "answer": "The model responds in a friendly tone and follows the prompt.",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "c748d7fb-61c4-4a97-a180-e77f928353f3",
+                    "answer": "The model output is slightly shorter than the user’s question.",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "Correct Answer: B Because responses should use natural language and not sound robotic or overly literal."
+              },
+              "_id": "689704a61db81d7051a1fffe"
+            }
+          ],
+          "_id": "689704a61db81d7051a1fff4"
+        },
+        {
+          "id": "5dabb155-a046-4478-b3fb-2d8184dd2ec7",
+          "estimatedTime": 5,
+          "title": "Step 3: Write Rubric Criteria",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "3331ac13-dcbf-42f3-b002-35178942b6b0",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754469826705_qvc8d.png\" alt=\"Step 3: Write Rubric Criteria\">"
+              },
+              "_id": "689704a61db81d7051a20000"
+            },
+            {
+              "id": "d959f78b-0a93-4bde-985a-3daa7731e151",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754513611345_7hcc3.png\" alt=\"You’ll now write a full rubric that captures what makes a good final response.  Cover all key asks from the prompt—nothing critical should be missing.  Include clear, specific criteria with appropriate weights.  Tag each criterion with:  A category (e.g., Visual Perception, Truthfulness)  Whether it’s explicit or implicit  Whether it’s objective or subjective  Section: Use Clear and Positive Wording  Strong rubric criteria are specific, concise, and easy to apply.  Use positive phrasing that includes relevant object details rather than doesn’t leave anything out.  Avoid vague language like “good description” or “somewhat accurate.”  Remove any redundancy—each criterion should evaluate a distinct concept.  Avoid using technical scoring terms like “fraction” unless defined clearly.  Image Description:  The image on the right side of the slide is a screenshot from a rubric creation interface. It shows a form where a user writes a rubric criterion and assigns it a point value, category, and labels for explicit/implicit and objective/subjective. Example criteria are listed at the bottom, such as:  “The response provides exactly two exit numbers.” (3 points – Visual Perception – Implicit – Objective)  “The response only identifies the exit numbers that appear in the left half of the billboard as 6 and 2.” (1 point – Truthfulness – Implicit – Objective)\">"
+              },
+              "_id": "689704a61db81d7051a20001"
+            },
+            {
+              "id": "3240b38c-0b16-4d0a-87ee-0e896a46da08",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754469861887_54i1s.png\" alt=\"What Makes a Criterion Strong?  Clear, Specific, and Actionable expectations → Each criterion should describe exactly what the model is expected to do. → Use testable phrases like: &quot;The response includes at least two reasons.&quot; → Avoid vague terms like “appropriate” or “good” unless they are clearly defined.  Checkable and Self-Contained → Criteria should be easy to check against the response without relying on other items or extra interpretation. → Don’t require the rater to infer or imagine beyond what’s presented. → Each criterion should stand on its own — it shouldn’t depend on understanding another rubric item to make sense.  Aligned with the Prompt → Ground expectations in the task instructions and goals of the prompt. → Rubrics should never expect something the prompt doesn’t support.\">"
+              },
+              "_id": "689704a61db81d7051a20002"
+            },
+            {
+              "id": "5d6116ae-19ae-4403-ad6c-efceb22bcb4e",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754513823481_h1nl3w.png\" alt=\"Objective vs Subjective Criteria Rubrics should reflect everything the model is expected to do.  Objective Criteria Considered the foundation  Can be clearly identified as fulfilled or unfulfilled within a response  Factual and clearly verifiable  Aim for at least 75% objective criteria  Example: &quot;The response uses 5 bullet points&quot;  Subjective Criteria Require interpretation or personal judgment to determine fulfillment  Should be used sparingly  Example: &quot;The response has a polite tone&quot;  Avoid fully subjective criteria that leave too much room for disagreement and inconsistent scoring  Sometimes some prompt types require subjective criteria like &quot;Chatbot&quot;\">"
+              },
+              "_id": "689704a61db81d7051a20003"
+            },
+            {
+              "id": "617178e1-3983-4a65-a23c-8e93f661dac5",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754588904627_kqy39.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20004"
+            },
+            {
+              "id": "ffdef7c9-9d67-4f6b-988a-641b84a302d7",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754548634293_pn4cq.png\" alt=\"Slide Title: Writing Hallucination Criteria  Section: When to Include Hallucination Criteria  Include hallucination criteria if the model introduces information that does not appear in the image or prompt.  This includes unrelated facts or fabricated details. Do not include hallucination criteria unless hallucinations are actually present in the response.  Unnecessary hallucination items are discouraged and can reduce rubric clarity.  If a hallucination is present, write a criterion that clearly identifies and penalizes the added or unrelated information.  Section: Why It Matters  Omitting required hallucination coverage means the model won’t be penalized appropriately.  This is considered a task fail and must be fixed before submitting.  Notes Section:  ➤ Some prompts only allow for one valid answer (e.g., logic, math).  ➤ Don’t use hallucination criteria just because only one answer is correct.  ➤ Use accuracy-based criteria instead (e.g., “The final answer must be X.”)  ➤ Hallucination criteria are unnecessary when correctness is already the focus.\">"
+              },
+              "_id": "689704a61db81d7051a20005"
+            },
+            {
+              "id": "bada45e5-387f-4eb8-811b-75b2a1b521eb",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754727298276_edm1y.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20006"
+            },
+            {
+              "id": "e6c7de2d-2d2f-4f4c-b4d1-e48d9bee6d4f",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754590148134_hghovq.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20007"
+            },
+            {
+              "id": "013303c2-22aa-4928-a265-553d0fb79e9c",
+              "weight": 0,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": true,
+                "question": "**Q4. Which of the following meets the requirements for writing strong rubric criteria?**",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "0bb83f3b-bd0b-4271-8628-74637b8971a9",
+                    "answer": "The criterion should be vague enough to apply to many tasks.",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "a534cecf-cd93-4a67-ab1f-0d69a37745ed",
+                    "answer": "It’s okay to include multiple concepts in one criterion if they seem related.",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "5755b1f6-1cc4-4386-92f5-641ba4770bbe",
+                    "answer": "The criterion should use clear, positive language and focus on one distinct concept.",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "946b43e5-10ec-486a-9d8c-ebf16f7f1c44",
+                    "answer": "It’s best to say what the response *shouldn’t* do to cover more edge cases.",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "Correct Answer: C Because criteria should be clear, positively phrased, concise, and evaluate a distinct concept."
+              },
+              "_id": "689704a61db81d7051a20008"
+            }
+          ],
+          "_id": "689704a61db81d7051a1ffff"
+        },
+        {
+          "id": "549cb134-22bc-453a-9c93-81524d79ee1d",
+          "estimatedTime": 3,
+          "title": "Step 4: Rank, and Justify the Responses",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "4ee591a2-55ee-4e34-b8ae-7ffec871ea48",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754549510372_tp0hn.png\" alt=\"Slide title reads “STEP 4: Rank and Justify” in large bold black text. The word “Outlier” appears in smaller text in the bottom left corner. The background is a smooth gradient of teal to pale purple, fading from left to right.\">"
+              },
+              "_id": "689704a61db81d7051a2000a"
+            },
+            {
+              "id": "067908d6-2a43-4610-a396-768517242d23",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754590510672_4ekt3fr.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a2000b"
+            },
+            {
+              "id": "2910d536-c54a-4511-9110-d2a61fc1807d",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754471386955_fh8fmr.png\" alt=\"Slide title reads “Use the Rubric Viewer to Compare.”  A blue callout box underneath says: Double-check your scores using the Rubric Evaluation Viewer  Use the viewer to help identify strong and weak areas across all 4 responses  The viewer helps with scoring consistency, but your judgment matters most  Below the callout is a screenshot labeled “Rubric Evaluation Viewer,” comparing four responses side by side.  Image description: Screenshot of the Rubric Evaluation Viewer showing a table with 3 criteria on the left and 4 model responses (A–D) across the top.  Response A is labeled “2nd place” and has a score of 33%. It receives: No, Yes, No.  Responses B, C, and D are each marked “1st place” with 100% and all receive “Yes” for each criterion.  The criteria are:  Identifies exit numbers on the left half of the billboard as 6 and 2  Provides exactly two exit numbers  Only includes the exit numbers from the left half of the billboard  The viewer visually highlights scoring differences to support comparative evaluation.\">"
+              },
+              "_id": "689704a61db81d7051a2000c"
+            },
+            {
+              "id": "dcd81891-d9c5-4ab3-be75-4aee41795409",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754590774973_4jy47m.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a2000d"
+            },
+            {
+              "id": "1f76866c-e5f4-43b1-a63e-ec8a446dee08",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754596763328_m6dg3d.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a2000e"
+            },
+            {
+              "id": "0f4d6653-f2cc-4b9d-8813-e5186ac7035b",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754596814599_a5ykss.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a2000f"
+            },
+            {
+              "id": "92efe3e3-296e-4c90-bb5a-2c92d0dcbf2f",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true
+              },
+              "_id": "689704a61db81d7051a20010"
+            },
+            {
+              "id": "f598fd94-0e23-4d5f-84e1-1b615137116d",
+              "weight": 0,
+              "type": "multiple_choice",
+              "contents": {
+                "maxAttempts": 1,
+                "singleSelect": true,
+                "skipGrading": true,
+                "question": "**Q5.** True or False the final rankings have to match the rubric evaluator ranking?",
+                "labelOptions": true,
+                "choices": [
+                  {
+                    "id": "bf2c0d4e-dde0-416d-a463-ad08d9ac718d",
+                    "answer": "False",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "c94dc529-b254-472d-9d53-1531e8199e02",
+                    "answer": "True",
+                    "isCorrect": false
+                  }
+                ],
+                "explanation": "Correct Answer: A. The final ranking does not have to match rubric evaluator. In many cases like ties and punts/refusals they will differ."
+              },
+              "_id": "689704a61db81d7051a20011"
+            }
+          ],
+          "_id": "689704a61db81d7051a20009"
+        },
+        {
+          "id": "8b58167a-c86c-4749-8fa9-75a718219598",
+          "estimatedTime": 5,
+          "title": "Final Tips, Examples and Takeaways",
+          "description": "",
+          "courseSectionItems": [
+            {
+              "id": "c6fd1e2f-b0b4-4e52-a7f5-617f9ecec541",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754527332348_n3qcf.png\" alt=\"Slide title reads “Final Tips, Examples and Takeaways.”  The background is a gradient from turquoise to light purple. A small black trophy icon appears in the top-right corner. The word “Outlier” is displayed in black at the bottom left.  This is a transition slide introducing the final section of the presentation.\">"
+              },
+              "_id": "689704a61db81d7051a20013"
+            },
+            {
+              "id": "07dd19dc-571b-4519-aaf9-c5c4c45ea660",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754549988927_m9qbuw.png\" alt=\"Slide title reads “Common Rubric Errors.”  The slide is arranged into six square tiles with alternating blue and purple backgrounds, each showing a common rubric issue:  Stacked (Non-Atomic) Criteria Criteria that check for multiple elements at once, making evaluation difficult.  Lacks Self-Containment Criteria depend on context instead of being evaluable on their own.  Implicit vs Explicit Confusion Not marking criteria as explicit when the prompt directly requires it.  Mislabeling Subjective vs. Objective Marking subjective criteria as objective when they rely on a feeling, emotion, or opinion.  Over-Prescriptive Imposing stylistic choices that aren't required by the prompt.  Criteria Overlap Different criteria check the same thing, which can lead to double-penalties.  Each tile includes a simple icon representing the error type.\">"
+              },
+              "_id": "689704a61db81d7051a20014"
+            },
+            {
+              "id": "02561b7c-d859-473c-9e1c-69a994146a27",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754517013609_evuxsi.png\" alt=\"Slide title reads “Factually Wrong Information.” Subheading says: “Double-check all facts in prompts and criteria. Even if the source is provided by the user (e.g., a textbook or image), you are still responsible for ensuring the information is accurate and up to date.”  Two side-by-side boxes follow:  Left box (Expectation): Icon shows three sparkle lines. Text reads: “The contributor assumes the source text (like a textbook) is 100% accurate and uses it directly to write rubric items.”  Right box (Reality): Icon shows a lightning bolt. Text reads: “The textbook is outdated → Criteria based on it is now factually incorrect → Task fails when judged by current-day standards.”  Below these boxes is a light green box labeled Ideal Mindset, with a thought bubble icon. Text reads: “Are all of my criteria, prompts, and images factually correct based on current-day knowledge?”\">"
+              },
+              "_id": "689704a61db81d7051a20015"
+            },
+            {
+              "id": "75523998-e307-45b5-9a41-dfcedb3fe62c",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754544291768_k051we.png\" alt=\"Slide title reads “Literal vs. Common Language.” Subheading says: “If a word can be interpreted literally, auditors will often take the literal meaning — especially in STEM/Code tasks.”  Two side-by-side examples follow:  Example 1 (left box, light blue): Word: “girls” Prompt: Can you name the girls performing on stage? Expectation: The band name will be enough. Reality: Auditor takes “girls” literally and expects each girl to be named → ❌ Task fails.  Example 2 (right box, light purple): Word: “fraction” Prompt: What fraction of people... Expectation: Includes any reasonable format (%, decimals, etc.) Reality: Auditor only accepts x/y format → ❌ Criteria invalid → Task fails.  At the bottom of the slide is a light green box labeled Ideal Mindset, with a thought bubble icon. Text reads: “Could this word be misunderstood if taken literally?”\">"
+              },
+              "_id": "689704a61db81d7051a20016"
+            },
+            {
+              "id": "8904e758-a09e-4f5f-a052-bf62406b519f",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754595413538_5kavzp.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20017"
+            },
+            {
+              "id": "8d599df1-13b9-4e9b-8115-627b38dbd116",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754595440091_vreor.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20018"
+            },
+            {
+              "id": "2eb11658-5699-4eaf-b929-a4edb39e54be",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754595460432_g1ag4l.png\" alt=\"\">"
+              },
+              "_id": "689704a61db81d7051a20019"
+            },
+            {
+              "id": "b9b5596b-0245-4bb0-b8f8-73f61dfe0485",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754545862247_bpl3p3.png\" alt=\"Slide title reads “LaTeX Rendering in STEM Tasks.” The left side of the slide contains instructional guidance in a light blue box with four bullet points:  If the response looks misformatted, click the LaTeX rendering button (dollar sign symbol) in the top right corner.  If LaTeX renders correctly after clicking, you can proceed with the task.  If it does not render after clicking, it’s likely incorrect; continue but don’t assume it’s a bug.  Never add rubric criteria related to LaTeX formatting or grammar.  The right side of the slide shows two screenshots labeled “Before” and “After.” In the &quot;Before&quot; image, the LaTeX is not rendered correctly. In the &quot;After&quot; image, the math is properly rendered after clicking the LaTeX button.\">"
+              },
+              "_id": "689704a61db81d7051a2001a"
+            },
+            {
+              "id": "01569815-ef90-42d6-a598-a06920a86059",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754545026325_9857f.png\" alt=\"Slide title reads “Golden Rewrites and Blurry Images.” The content is split into two boxed sections on a light blue background.  Left box (Golden Rewrites) includes five bullet points explaining that:  Contributors are no longer expected to write Golden Rewrites.  Golden Rewrites were polished final responses.  References to them in old tasks can be ignored.  This is a long-term change, but they may return.  If they return, updated instructions will be provided.  Right box (Blurry Images) includes four bullet points:  Every prompt must include at least one image.  Slightly blurry but usable images are acceptable.  Images that are unreadable must be replaced.  The image must provide enough visual context to support the model’s answer.\">"
+              },
+              "_id": "689704a61db81d7051a2001b"
+            },
+            {
+              "id": "7c77f508-5846-46c3-bc42-946459fe87d3",
+              "weight": 0,
+              "type": "rich_text",
+              "contents": {
+                "singleSelect": true,
+                "body": "<img src=\"https://static.remotasks.com/uploads/6892e922522126f1742d8678/1754517138684_4qbksg.png\" alt=\"Slide title reads and that's a wrap! The slide is split into two sections. The left section has a gradient blue and purple background with a large bold heading that says, “And that’s a wrap!” followed by the message, “You’re ready to get started—practice will build your confidence.”  The right section is in a pale yellow box and reads:  “You’ve just learned the basics of the MM Rubrics Cookies project!” It lists key takeaways:  Identify and annotate hallucinations and factual errors.  Extend conversations naturally.  Evaluate responses and write a strong rubric.  Use clear, specific, and positively framed criteria.  Catch punts, disclaimers, or signs of task failure.\">"
+              },
+              "_id": "689704a61db81d7051a2001c"
+            }
+          ],
+          "_id": "689704a61db81d7051a20012"
+        }
+      ],
+      "translatedSections": {},
+      "minReviewLevel": "-1",
+      "passingGradeThreshold": 0,
+      "isTemplate": false,
+      "showFinalGrade": false,
+      "grantedTagsUponCompletion": [],
+      "grantedTagsUponPass": [],
+      "grantedTagsUponFail": [],
+      "createdBy": "65e0a6cd6e614c7302a321ce",
+      "updatedBy": "65e0a6cd6e614c7302a321ce",
+      "allowFreeTextGrading": false,
+      "useCustomQuestionWeights": false,
+      "isTimed": false,
+      "enableMLCheatingDetection": false,
+      "cheatingDetectionLlmArtifactsEnabled": true,
+      "cheatingDetectionLlmArtifacts": "✅,🔧,🔴,🟡,🟠,❌,✔,🚀,🔥,🎯,😆,🏆,🚨,🔹,☑️,⚠️,🌹,1️⃣,2️⃣,3️⃣,4️⃣",
+      "useTipTap": true,
+      "version": 55,
+      "isPublic": false,
+      "createdAt": "2025-08-06T05:33:22.132Z",
+      "updatedAt": "2025-08-09T08:19:50.858Z",
+      "__v": 54
+    },
+    "currentSection": 1,
+    "status": "in_progress",
+    "attemptNumber": 1,
+    "completed": false,
+    "courseAnswer": {},
+    "assigned": false,
+    "passingGrade": 0,
+    "fullstorySessions": [],
+    "remainingTime": 1500,
+    "violationsDetected": [],
+    "createdAt": "2025-08-11T02:18:13.751Z",
+    "updatedAt": "2025-08-11T02:24:05.248Z",
+    "__v": 0
+  }
+}
