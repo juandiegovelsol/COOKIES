@@ -1,0 +1,23 @@
+function prettyMilliseconds(ms) {
+    var isNegative = ms < 0;
+    var absMs = Math.abs(ms);
+    var seconds = Math.floor(absMs / 1000);
+    var minutes = Math.floor(seconds / 60);
+    var hours = Math.floor(minutes / 60);
+    var remainingMinutes = minutes % 60 || (hours > 0 ? 60 : 0);
+    var parts = [];
+    var parts = [];
+    if (hours > 0) {
+        parts.push(hours + " hour" + (hours > 1 ? "s" : ""));
+    }
+    if (remainingMinutes > 0) {
+        parts.push(remainingMinutes + " minute" + (remainingMinutes > 1 ? "s" : ""));
+    }
+    var result = parts.length > 0 ? parts.join(" and ") : "0 minutes";
+    return isNegative ? "-" + result : result;
+}
+// Ejemplos de uso:
+console.log(prettyMilliseconds(5400000)); // "1 hour and 30 minutes"
+console.log(prettyMilliseconds(-3600000)); // "-1 hour"
+console.log(prettyMilliseconds(120000)); // "2 minutes"
+console.log(prettyMilliseconds(0)); // "0 minutes"
