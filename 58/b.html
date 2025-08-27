@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div>
+      <button onclick="play('rock')">🗿</button>
+      <button onclick="play('paper')">📄</button>
+      <button onclick="play('scissors')">✂️</button>
+    </div>
+    <div id="result">Choose your move!</div>
+    <div>
+      Player: <span id="playerScore">0</span> | Computer:
+      <span id="computerScore">0</span>
+    </div>
+    <button onclick="resetGame()">Reset</button>
+    <script>
+      let p = 0,
+        c = 0;
+      const choices = ["rock", "paper", "scissors"];
+      const emojis = { rock: "🗿", paper: "📄", scissors: "✂️" };
+      function play(player) {
+        const computer = choices[Math.floor(Math.random() * 3)];
+        let result = "Tie!";
+        if (
+          (player === "rock" && computer === "scissors") ||
+          (player === "paper" && computer === "rock") ||
+          (player === "scissors" && computer === "paper")
+        ) {
+          result = "You Win!";
+          p++; // Increment player's score
+        } else if (player !== computer) {
+          result = "Computer Wins!";
+          c++; // Increment computer's score
+        }
+
+        document.getElementById(
+          "result"
+        ).innerHTML = `You: ${emojis[player]} | Computer: ${emojis[computer]}<br>${result}`;
+        document.getElementById("playerScore").textContent = p;
+        document.getElementById("computerScore").textContent = c;
+      }
+      function resetGame() {
+        p = c = 0;
+        document.getElementById("playerScore").textContent = "0";
+        document.getElementById("computerScore").textContent = "0";
+        document.getElementById("result").textContent = "Choose your move!";
+      }
+    </script>
+  </body>
+</html>
