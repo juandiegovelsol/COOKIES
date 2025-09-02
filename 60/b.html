@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <title>Tic Tac Toe</title>
+  <style>
+    body {
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #g {
+      display: grid;
+      grid-template-columns: repeat(3, 60px);
+      gap: 4px;
+    }
+    button {
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+    }
+    #r {
+      width: 90px;
+      height: 90px;
+    }
+  </style>
+  <div id="s">Turn: X</div>
+  <div id="g"></div>
+  <button id="r">Reset</button>
+  <script>
+    const g = document.getElementById("g"),
+      s = document.getElementById("s"),
+      r = document.getElementById("r");
+    let b = Array(9).fill(""),
+      p = "X",
+      over = false,
+      w = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
+        [0, 4, 8],
+        [2, 4, 6],
+      ];
+    const ui = Array.from({ length: 9 }, (_, i) => {
+      let x = document.createElement("button");
+      x.onclick = () => mv(i);
+      g.appendChild(x);
+      return x;
+    });
+    function mv(i) {
+      if (over || b[i]) return;
+      b[i] = p;
+      ui[i].textContent = p;
+      if (w.some(([a, c, d]) => b[a] && b[a] === b[c] && b[a] === b[d])) {
+        s.textContent = `${p} wins`;
+        over = true;
+        return;
+      }
+      if (b.every(Boolean)) {
+        s.textContent = "Draw";
+        over = true;
+        return;
+      }
+      p = p === "X" ? "O" : "X";
+      s.textContent = `Turn: ${p}`;
+    }
+    r.onclick = () => {
+      b.fill("");
+      ui.forEach((x) => (x.textContent = ""));
+      p = "X";
+      over = false;
+      s.textContent = "Turn: X";
+    };
+  </script>
+</html>

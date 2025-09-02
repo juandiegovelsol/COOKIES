@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<form id="f">
+  <input placeholder="Name" required />
+  <input type="email" placeholder="Email" required />
+  <input id="p" type="password" placeholder="Password" required />
+  <meter id="s" min="0" max="6" value="0"></meter>
+  <div id="r"></div>
+  <input id="c" type="password" placeholder="Confirm" required />
+  <button disabled>Create</button>
+</form>
+<script>
+  const $ = (id) => document.getElementById(id),
+    f = $("f"),
+    p = $("p"),
+    c = $("c"),
+    b = f.querySelector("button"),
+    s = $("s"),
+    r = $("r"),
+    rules = [
+      ["8+ chars", (v) => v.length > 7],
+      ["Upper", (v) => /[A-Z]/.test(v)],
+      ["Lower", (v) => /[a-z]/.test(v)],
+      ["Number", (v) => /\d/.test(v)],
+      ["Symbol", (v) => /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(v)],
+      ["No spaces", (v) => /\s/.test(v)],
+    ];
+  const u = () => {
+    const v = p.value;
+    let n = 0;
+
+    // Inside the map function
+    r.innerHTML = rules
+      .map(([tt, ok]) => {
+        const pass = ok(v);
+        if (!pass) n++; // Increment n only if the rule failed
+        return `<span style="color:${pass ? "#00" : "#900"};text-decoration:${
+          pass ? "none" : "line-through"
+        }">${tt}</span>`;
+      })
+      .join(" ");
+    s.value = n;
+    b.disabled = !(n == 6 && v === c.value && v);
+  };
+  p.oninput = c.oninput = u;
+  u();
+  f.onsubmit = (e) => {
+    e.preventDefault();
+    alert("Submitted");
+  };
+</script>

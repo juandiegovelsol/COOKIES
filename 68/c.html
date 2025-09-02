@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<form id="f">
+  <input placeholder="Name" required />
+  <input type="email" placeholder="Email" required />
+  <input id="p" type="password" placeholder="Password" required />
+  <meter id="s" min="0" max="6" value="0"></meter>
+  <div id="r"></div>
+  <input id="c" type="password" placeholder="Confirm" required />
+  <button disabled>Create</button>
+</form>
+<script>
+    const $ = (id) => document.getElementById(id),
+      f = $("f"),
+      p = $("p"),
+      c = $("c"),
+      b = f.querySelector("button"),
+      s = $("s"),
+      r = $("r"),
+      const rules = {
+      ["8+ chars"] : v => v.length >= 7,
+      ["Upper", "lower"] : v => [/[A-Z]/].concat([/[a-z]/]).every(r => r.test(v)),
+      ["Number"] : v => /[0-9]/.test(v),
+      ["Symbol", "\'_@%&*+-=!#^"] : v => [/@%&*+-=!#^]+/.test(v),
+      ["No spaces"] : /\s/
+  };
+    const u = () => {
+      const v = p.value;
+      let n = 0;
+      r.innerHTML = rules
+        .map(([t, ok]) => {
+          const pass = ok(v);
+          n += pass;
+          return `<span style="${
+            pass ? "color:#090;text-decoration:line-through" : "color:#c00"
+          }">${t}</span>`;
+        })
+        .join(" · ");
+      s.value = n;
+      b.disabled = !(n == 6 && v === c.value && v);
+    };
+    p.oninput = c.oninput = u;
+    u();
+    f.onsubmit = (e) => {
+      e.preventDefault();
+      alert("Submitted");
+    };
+</script>

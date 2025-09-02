@@ -1,0 +1,2 @@
+I have the following Venn diagram that represents the names of articles' buyers. Help me find a python expression to determine the
+name of the customer in the chart's center region

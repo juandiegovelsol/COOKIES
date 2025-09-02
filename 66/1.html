@@ -1,0 +1,115 @@
+<!DOCTYPE html><meta charset="utf-8" /><title>Dynamic Table</title>
+<style>
+  body {
+    font: 14px system-ui;
+    margin: 0;
+    background: #f6f7fb;
+  }
+  .wrap {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 16px;
+    background: #fff;
+    border-radius: 12px;
+  }
+  form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 0 0 12px;
+  }
+  input,
+  button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  input {
+    flex: 1 1 160px;
+  }
+  #act {
+    background: #2563eb;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  thead th {
+    background: #111827;
+    color: #fff;
+  }
+  .actions button {
+    margin-right: 6px;
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .edit {
+    background: #10b981;
+    color: #fff;
+  }
+  .del {
+    background: #ef4444;
+    color: #fff;
+  }
+</style>
+<div class="wrap">
+  <form id="form">
+    <input name="name" placeholder="Name" required />
+    <input type="number" name="age" placeholder="Age" min="0" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <button id="act">Add</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+<script>
+  const f = form,
+    tb = rows,
+    btn = act;
+  let edit = null;
+  f.onsubmit = (e) => {
+    e.preventDefault();
+    const { name, age, email } = Object.fromEntries(new FormData(f));
+    const r = edit || tb.insertRow();
+    r.innerHTML = `<td>${name}</td><td>${age}</td><td>${email}</td>
+      <td class="actions"><button class="edit">Edit</button><button class="del">Delete</button></td>`;
+    edit = null;
+    btn.textContent = "Add";
+    f.reset();
+    f.name.focus();
+  };
+  tb.onclick = (e) => {
+    if (e.target.closest(".del")) e.target.closest("td").remove();
+    if (e.target.closest(".edit")) {
+      const c = e.target.closest("tr").cells;
+      [f.name.value, f.age.value, f.email.value] = [
+        c[0].textContent,
+        c[1].textContent,
+        c[2].textContent,
+      ];
+      edit = e.target.closest("tr");
+      btn.textContent = "Update";
+      f.name.focus();
+    }
+  };
+</script>

@@ -1,0 +1,1 @@
+I have the following Venn diagram that represents data in a python code, as shown in the images. How could I obtain a python expression to find the BC section values
